@@ -1,45 +1,59 @@
-.container-1 {
-  /* position: absolute; */
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
+/* import fonts */
+@import url('http://fonts.cdnfonts.com/css/monument-extended');
+
+* {
+  margin: 0px;
 }
 
-.container-1 div {
-  /* border: 1px black solid; */
-  margin: 0 5px 0 5px;
-  /* padding: 10px; */
-}
-
-#logo {
-  width: 195px;
-}
-
-.container-2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.item-2,
-.container-2>a {
-  font-family: Swis721 Ex BT;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 24px;
+/* all links */
+a {
   color: #0B4619;
   text-decoration: none;
 }
 
-.container-2>a:hover {
-  text-decoration: underline dashed;
+a:hover {
+  text-decoration:underline dashed;
 }
 
-.description {
-  font-family: Monument Extended;
-  font-style: normal;
+/* header */
+.header-container{
+  margin:5px;
+  margin-bottom:0px;
+  border:1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  font-family: 'Monument Extended', sans-serif;
+  font-size: 24px;
   font-weight: 800;
-  font-size: 46px;
+}
+
+/* dark/light mode */
+#mode {
+  font-weight: 400;
+}
+
+.nav-container{
+  border:1px solid red;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  font-weight: 400;
+}
+
+/* intro statement on home page */
+.intro-container {
+  height: 630px;
+  margin-left:5px;
+  margin-right:5px;
+  margin-top:0px;
+  margin-bottom: 0px;
+  border:1px solid green;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  font-family: 'Monument Extended', sans-serif;
   color: #0B4619;
+  font-weight: 800;
+  font-size: 90px;
 }
