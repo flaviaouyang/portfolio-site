@@ -34,12 +34,11 @@ a:hover {
 }
 
 .nav-container{
-  /* border:1px solid red; */
   display:flex;
-  /* position: absolute; */
   flex-direction:column;
   justify-content:space-between;
   font-weight: 400;
+  float:right;
 }
 
 /* intro statement on home page */
