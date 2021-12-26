@@ -18,5 +18,12 @@ https://flaviaouyang.github.io/portfolio-site/
 
 
 
+## Issues
+- 12/26/2021: font does not work in Safari
+- 12/26/2021: font-decoration underline dashed does not work in Safari
+- 12/26/2021: nav bar fixed position does not work, will take it out of flexbox workflow
+
+
+
 
 
