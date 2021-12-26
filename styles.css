@@ -19,7 +19,7 @@ a:hover {
 .header-container{
   margin:5px;
   margin-bottom:0px;
-  border:1px solid black;
+  /* border:1px solid black; */
   display: flex;
   flex-direction: row;
   justify-content:space-between;
@@ -34,8 +34,9 @@ a:hover {
 }
 
 .nav-container{
-  border:1px solid red;
+  /* border:1px solid red; */
   display:flex;
+  /* position: absolute; */
   flex-direction:column;
   justify-content:space-between;
   font-weight: 400;
@@ -43,12 +44,12 @@ a:hover {
 
 /* intro statement on home page */
 .intro-container {
-  height: 630px;
+  height: 638px;
   margin-left:5px;
   margin-right:5px;
   margin-top:0px;
   margin-bottom: 0px;
-  border:1px solid green;
+  /* border:1px solid green; */
   display: flex;
   flex-direction:column;
   justify-content: center;
@@ -56,4 +57,41 @@ a:hover {
   color: #0B4619;
   font-weight: 800;
   font-size: 90px;
+}
+
+/* ABOUT PAGE */
+.about-container {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  height: 785px;
+}
+
+.about-banner-container {
+  margin-left:5px;
+  display: flex;
+  flex-grow: 1;
+  justify-content:flex-start;
+  align-items: center;
+  border-right: 10px solid #0B4619;
+}
+
+.about-banner-text {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  font-family: 'Monument Extended', sans-serif;
+  color: #0B4619;
+  font-weight: 800;
+  font-size: 144px;
+  line-height: 110px;
+}
+
+.about-me {
+  margin: 10px;
+  flex-grow: 5;
+  align-self: center;
+  font-family: 'Monument Extended', sans-serif;
+  color: #0B4619;
+  font-weight: 800;
+  font-size: 36px;
 }
