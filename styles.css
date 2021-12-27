@@ -24,105 +24,107 @@
   unicode-range:U + 000-5FF
 }
 
-* {
-  margin: 0px;
-}
-
-/* all links */
-a {
-  color: #0B4619;
-  text-decoration: none;
-}
-
-#nav-link:hover {
-  text-decoration:underline dashed !important;
-  -webkit-text-decoration-line: underline !important;
-  -webkit-text-decoration-style: dashed !important;
-  cursor: pointer !important;
-}
-
-/* header */
-.header-container{
-  margin:5px;
-  margin-bottom:0px;
-  /* border:1px solid black; */
-  display: flex;
-  flex-direction: row;
-  justify-content:space-between;
-  font-family: 'MonumentExtended UltraBold', Arial, sans-serif;
-  font-size: 24px;
-  font-weight: 800;
-}
-
-/* dark/light mode */
-#mode {
-  font-family: "Swiss", serif;
-}
-
-#mode:hover {
-  text-decoration:underline dashed !important;
-  -webkit-text-decoration-line: underline !important;
-  -webkit-text-decoration-style: dashed !important;
-  cursor: pointer !important;
-}
-
-.nav-container{
-  display:flex;
-  flex-direction:column;
-  justify-content:space-between;
-  font-family: "Swiss", serif;
-  float:right;
-}
-
-/* intro statement on home page */
-.intro-container {
-  height: 638px;
-  margin-left:5px;
-  margin-right:5px;
-  margin-top:0px;
-  margin-bottom: 0px;
-  display: flex;
-  flex-direction:column;
-  justify-content: center;
-  font-family: 'MonumentExtended UltraBold', Arial, sans-serif;
-  color: #0B4619;
-  font-weight: 800;
-  font-size: 90px;
-  line-height: 1.1em;
-}
-
-/* ABOUT PAGE */
-.about-container {
-  display: flex;
-  flex-direction: row;
-  height: 785px;
-}
-
-.about-banner-container {
-  margin-left:5px;
-  display: flex;
-  flex-grow: 1;
-  justify-content:flex-start;
-  align-items: center;
-  border-right: 10px solid #0B4619;
-}
-
-.about-banner-text {
-  writing-mode: vertical-lr;
-  transform: rotate(180deg);
-  font-family: 'MonumentExtended UltraBold', Arial, sans-serif;
-  color: #0B4619;
-  font-weight: 800;
-  font-size: 144px;
-  line-height: 110px;
-}
-
-.about-me {
-  margin: 10px;
-  flex-grow: 5;
-  align-self: center;
-  font-family: "Swiss", serif;
-  color: #0B4619;
-  font-size: 36px;
-  text-transform: uppercase;
+@media screen and (min-width:730px){
+  * {
+    margin: 0px;
+  }
+  
+  /* all links */
+  a {
+    color: #0B4619;
+    text-decoration: none;
+  }
+  
+  #nav-link:hover {
+    text-decoration:underline dashed !important;
+    -webkit-text-decoration-line: underline !important;
+    -webkit-text-decoration-style: dashed !important;
+    cursor: pointer !important;
+  }
+  
+  /* header */
+  .header-container{
+    margin:5px;
+    margin-bottom:0px;
+    /* border:1px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    font-family: 'MonumentExtended UltraBold', Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+  }
+  
+  /* dark/light mode */
+  #mode {
+    font-family: "Swiss", serif;
+  }
+  
+  #mode:hover {
+    text-decoration:underline dashed !important;
+    -webkit-text-decoration-line: underline !important;
+    -webkit-text-decoration-style: dashed !important;
+    cursor: pointer !important;
+  }
+  
+  .nav-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    font-family: "Swiss", serif;
+    float:right;
+  }
+  
+  /* intro statement on home page */
+  .intro-container {
+    height: 638px;
+    margin-left:5px;
+    margin-right:5px;
+    margin-top:0px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    font-family: 'MonumentExtended UltraBold', Arial, sans-serif;
+    color: #0B4619;
+    font-weight: 800;
+    font-size: 90px;
+    line-height: 1.1em;
+  }
+  
+  /* ABOUT PAGE */
+  .about-container {
+    display: flex;
+    flex-direction: row;
+    height: 785px;
+  }
+  
+  .about-banner-container {
+    margin-left:5px;
+    display: flex;
+    flex-grow: 1;
+    justify-content:flex-start;
+    align-items: center;
+    border-right: 10px solid #0B4619;
+  }
+  
+  .about-banner-text {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-family: 'MonumentExtended UltraBold', Arial, sans-serif;
+    color: #0B4619;
+    font-weight: 800;
+    font-size: 144px;
+    line-height: 110px;
+  }
+  
+  .about-me {
+    margin: 10px;
+    flex-grow: 5;
+    align-self: center;
+    font-family: "Swiss", serif;
+    color: #0B4619;
+    font-size: 36px;
+    text-transform: uppercase;
+  }
 }
