@@ -59,6 +59,13 @@ a {
   font-family: "Swiss", serif;
 }
 
+#mode:hover {
+  text-decoration:underline dashed !important;
+  -webkit-text-decoration-line: underline !important;
+  -webkit-text-decoration-style: dashed !important;
+  cursor: pointer !important;
+}
+
 .nav-container{
   display:flex;
   flex-direction:column;
