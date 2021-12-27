@@ -36,6 +36,8 @@ a {
 
 #nav-link:hover {
   text-decoration:underline dashed !important;
+  -webkit-text-decoration-line: underline !important;
+  -webkit-text-decoration-style: dashed !important;
   cursor: pointer !important;
 }
 
