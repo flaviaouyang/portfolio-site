@@ -1,5 +1,5 @@
 /* import fonts */
-/* @import url('http://fonts.cdnfonts.com/css/monument-extended'); */
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@400;700&display=swap');
 
 * {
   margin: 0px;
@@ -23,7 +23,7 @@ a:hover {
   display: flex;
   flex-direction: row;
   justify-content:space-between;
-  font-family: 'Monument Extended', sans-serif;
+  font-family: 'Monument Extended', 'Teko', sans-serif;
   font-size: 24px;
   font-weight: 800;
 }
@@ -52,7 +52,7 @@ a:hover {
   display: flex;
   flex-direction:column;
   justify-content: center;
-  font-family: 'Monument Extended', sans-serif;
+  font-family: 'Monument Extended', 'Teko', sans-serif;
   color: #0B4619;
   font-weight: 800;
   font-size: 90px;
@@ -77,7 +77,7 @@ a:hover {
 .about-banner-text {
   writing-mode: vertical-lr;
   transform: rotate(180deg);
-  font-family: 'Monument Extended', sans-serif;
+  font-family: 'Monument Extended', 'Teko', sans-serif;
   color: #0B4619;
   font-weight: 800;
   font-size: 144px;
@@ -88,7 +88,7 @@ a:hover {
   margin: 10px;
   flex-grow: 5;
   align-self: center;
-  font-family: 'Monument Extended', sans-serif;
+  font-family: 'Monument Extended', 'Teko', sans-serif;
   color: #0B4619;
   font-weight: 800;
   font-size: 36px;
