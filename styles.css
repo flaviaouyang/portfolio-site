@@ -34,7 +34,7 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+#nav-link:hover {
   text-decoration:underline dashed !important;
   cursor: pointer !important;
 }
