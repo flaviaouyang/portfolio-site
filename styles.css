@@ -35,7 +35,8 @@ a {
 }
 
 a:hover {
-  text-decoration:underline dashed;
+  text-decoration:underline dashed !important;
+  cursor: pointer !important;
 }
 
 /* header */
