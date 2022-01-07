@@ -43,7 +43,7 @@ a {
 
 /* header */
 .header-container {
-  margin: 5px;
+  margin: 10px;
   margin-bottom: 0px;
   /* border:1px solid black; */
   display: flex;
@@ -76,13 +76,14 @@ a {
   justify-content: space-between;
   font-family: "Swiss", serif;
   float: right;
+  margin-right: 15px;
 }
 
 /* intro statement on home page */
 .intro-container {
   height: 660px;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
   margin-top: 0px;
   margin-bottom: 0px;
   display: flex;
@@ -103,7 +104,7 @@ a {
 }
 
 .about-banner-container {
-  margin-left: 5px;
+  margin-left: 10px;
   display: flex;
   flex-grow: 1;
   justify-content: flex-start;
