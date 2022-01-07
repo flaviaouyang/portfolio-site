@@ -42,6 +42,7 @@ a {
 }
 
 /* header */
+
 .header-container {
   margin: 10px;
   margin-bottom: 0px;
@@ -63,11 +64,19 @@ a {
   font-family: "Swiss", serif;
 }
 
-.link:hover, #mode:hover {
+.link:hover,
+#mode:hover {
   text-decoration: underline dashed !important;
   -webkit-text-decoration-line: underline !important;
   -webkit-text-decoration-style: dashed !important;
   cursor: pointer !important;
+}
+
+.nav-parent{
+  position: fixed;
+  width: 100%;
+  top: 5;
+  z-index: 1;
 }
 
 .nav-container {
@@ -207,4 +216,3 @@ a {
 .copyright {
   margin-right: 25px;
 }
-
