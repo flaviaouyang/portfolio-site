@@ -4,7 +4,7 @@
   src: url(font/MonumentExtended-Regular.woff2) format("woff2"), url(MonumentExtended-Regular.woff) format("woff");
   font-weight: 400;
   font-style: normal;
-  font-display:swap
+  font-display: swap
 }
 
 @font-face {
@@ -12,7 +12,7 @@
   src: url(font/MonumentExtended-UltraBold.woff2) format("woff2"), url(MonumentExtended-UltraBold.woff) format("woff");
   font-weight: 400;
   font-style: normal;
-  font-display:swap
+  font-display: swap
 }
 
 @font-face {
@@ -21,7 +21,7 @@
   font-weight: 400;
   font-style: normal;
   font-display: swap;
-  unicode-range:U + 000-5FF
+  unicode-range: U + 000-5FF
 }
 
 * {
@@ -35,20 +35,20 @@ a {
 }
 
 #nav-link:hover {
-  text-decoration:underline dashed !important;
+  text-decoration: underline dashed !important;
   -webkit-text-decoration-line: underline !important;
   -webkit-text-decoration-style: dashed !important;
   cursor: pointer !important;
 }
 
 /* header */
-.header-container{
-  margin:5px;
-  margin-bottom:0px;
+.header-container {
+  margin: 5px;
+  margin-bottom: 0px;
   /* border:1px solid black; */
   display: flex;
   flex-direction: row;
-  justify-content:space-between;
+  justify-content: space-between;
   font-family: 'MonumentExtended UltraBold', Arial, sans-serif;
   font-size: 24px;
   font-weight: 800;
@@ -64,29 +64,29 @@ a {
 }
 
 #mode:hover {
-  text-decoration:underline dashed !important;
+  text-decoration: underline dashed !important;
   -webkit-text-decoration-line: underline !important;
   -webkit-text-decoration-style: dashed !important;
   cursor: pointer !important;
 }
 
-.nav-container{
-  display:flex;
-  flex-direction:column;
-  justify-content:space-between;
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   font-family: "Swiss", serif;
-  float:right;
+  float: right;
 }
 
 /* intro statement on home page */
 .intro-container {
   height: 660px;
-  margin-left:5px;
-  margin-right:5px;
-  margin-top:0px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 0px;
   margin-bottom: 0px;
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   justify-content: center;
   font-family: 'MonumentExtended UltraBold', Arial, sans-serif;
   color: #0B4619;
@@ -103,10 +103,10 @@ a {
 }
 
 .about-banner-container {
-  margin-left:5px;
+  margin-left: 5px;
   display: flex;
   flex-grow: 1;
-  justify-content:flex-start;
+  justify-content: flex-start;
   align-items: center;
   border-right: 10px solid #0B4619;
 }
@@ -125,7 +125,7 @@ a {
   margin: 10px;
   flex-grow: 5;
   align-self: center;
-  font-family: 'MonumentExtended Regular',  Arial, sans-serif;
+  font-family: 'MonumentExtended Regular', Arial, sans-serif;
   color: #0B4619;
   font-size: 36px;
   text-transform: uppercase;
@@ -163,4 +163,11 @@ a {
   font-size: 60px;
   text-align: center;
   font-family: 'MonumentExtended UltraBold', Arial, sans-serif;
+}
+
+.blog-placeholder {
+  align-self: center;
+  width: 976px;
+  height: 314px;
+  margin-top: 150px;
 }
