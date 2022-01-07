@@ -33,10 +33,16 @@ The repository is the source code of my personal portfolio website. [Visit My Po
   - CSS
 
 ## Issues
+
 - 12/26/2021: font does not work in Safari (FIXED)
 - 12/26/2021: font-decoration underline dashed does not work in Safari (FIXED)
 - 12/26/2021: nav bar fixed position does not work, will take it out of flexbox workflow
-- 01/06/2022: responsive design for mobile users
+- 01/06/2022: Favicon does not work with Safari
+
+## `TODO`
+
+- [ ] change the layout of blog posts section
+- [ ] responsive design for mobile users
 
 
 
