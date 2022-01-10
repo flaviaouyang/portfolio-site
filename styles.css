@@ -166,6 +166,10 @@ a {
   font-family: 'MonumentExtended UltraBold', Arial, sans-serif;
 }
 
+.blog-container {
+  height: 735px;
+}
+
 .blog-placeholder {
   align-self: center;
   width: 976px;
