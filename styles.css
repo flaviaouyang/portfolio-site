@@ -101,6 +101,7 @@ a {
   display: flex;
   flex-direction: row;
   height: 800px;
+  width:1360px;
 }
 
 .about-banner-container {
@@ -120,6 +121,7 @@ a {
   font-weight: 800;
   font-size: 144px;
   line-height: 110px;
+  text-align: center;
 }
 
 .about-me {
@@ -130,6 +132,10 @@ a {
   color: #0B4619;
   font-size: 36px;
   text-transform: uppercase;
+}
+
+.empty-space {
+  height: 150px;
 }
 
 .project-container {
