@@ -2,7 +2,7 @@
 
 The repository is the source code of my personal portfolio website. [Visit My Portfolio](https://flaviaouyang.github.io/portfolio-site/)
 
-## Technology Used
+## Technologies/Tools Used
 
 - HTML
 - CSS
@@ -37,10 +37,11 @@ The repository is the source code of my personal portfolio website. [Visit My Po
 - 12/26/2021: font does not work in Safari (FIXED)
 - 12/26/2021: font-decoration underline dashed does not work in Safari (FIXED)
 - 12/26/2021: nav bar fixed position does not work, will take it out of flexbox workflow (FIXED)
-- 01/06/2022: Favicon does not work with Safari
+- 01/06/2022: Favicon does not work with Safari (FIXED)
 
 ## `TODO`
 
+- [ ] add animated and interactive background
 - [ ] change the layout of blog posts section
 - [ ] responsive design for mobile users
 
