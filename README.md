@@ -17,21 +17,17 @@ The repository is the source code of my personal portfolio website.<br>
 
 ## Repo Structure
 
-- README
+- README <- You're here 🎯
 - [font folder](/font): stores fonts used for the site
-  - Monument Extended
-
+  - Monument Extended<br>
 ![monument extended font](img/Monument-Extended.jpg)
-
-  - Swiss 721
-
+  - Swiss 721<br>
 ![swiss 721](img/swiss.png.webp)
-
 - [img folder](/img)
 - [UI folder](/ui): store the pdf files of the wireframe and UI designs for the site
 - scripts:
-  - HTML
-  - CSS
+  - [HTML](index.html)
+  - [CSS](styles.css)
 
 ## Issues
 
