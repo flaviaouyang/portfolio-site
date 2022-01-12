@@ -18,11 +18,11 @@ The repository is the source code of my personal portfolio website.<br>
 ## Typography
 
 - Monument Extended<br>
-<br>
+
 ![monument extended font](img/Monument-Extended.jpg)
 
 - Swiss 721<br>
-<br>
+
 ![swiss 721](img/swiss.png.webp)
 
 ## Issues
