@@ -13,6 +13,10 @@ The repository is the source code of my personal portfolio website.<br>
 - Designed wireframe, sitemap, and UI using Figma
 - Constructed basic layout of the site with HTML
 - Added basic style to site using CSS
+- Refactored Code for React
+
+Demo: Stage 1
+![Demo 001](demo-1.gif)
 
 ## Typography
 
