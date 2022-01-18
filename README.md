@@ -19,11 +19,11 @@ The repository is the source code of my personal portfolio website.<br>
 
 - Monument Extended<br>
 
-![monument extended font](img/Monument-Extended.jpg)
+![monument extended font](public/img/Monument-Extended.jpg)
 
 - Swiss 721<br>
 
-![swiss 721](img/swiss.png.webp)
+![swiss 721](public/img/swiss.png.webp)
 
 ## Issues
 
