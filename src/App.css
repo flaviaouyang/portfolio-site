@@ -1,7 +1,7 @@
 /* font face */
 @font-face {
   font-family: "MonumentExtended Regular";
-  src: url(font/MonumentExtended-Regular.woff2) format("woff2"), url(MonumentExtended-Regular.woff) format("woff");
+  src: url(../public/font/MonumentExtended-Regular.woff2) format("woff2"), url(../public/font/MonumentExtended-Regular.woff2) format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap
@@ -9,7 +9,7 @@
 
 @font-face {
   font-family: "MonumentExtended UltraBold";
-  src: url(font/MonumentExtended-UltraBold.woff2) format("woff2"), url(MonumentExtended-UltraBold.woff) format("woff");
+  src: url(../public/font/MonumentExtended-UltraBold.woff2) format("woff2"), url(../public/font/MonumentExtended-UltraBold.woff2) format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap
@@ -17,7 +17,7 @@
 
 @font-face {
   font-family: "Swiss";
-  src: url(font/Swiss-721-BT-Regular.woff2) format("woff2"), url(Swiss-721-BT-Regular.woff) format("woff");
+  src: url(../public/font/Swiss-721-BT-Regular.woff2) format("woff2"), url(../public/font/Swiss-721-BT-Regular.woff2) format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -75,7 +75,6 @@ a {
   font-family: "Swiss", serif;
   float: right;
   margin-right: 15px;
-  /* opacity: 75%; */
 }
 
 /* intro statement on home page */
