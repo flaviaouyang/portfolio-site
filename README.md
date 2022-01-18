@@ -1,7 +1,6 @@
 # portfolio-site
 
 The repository is the source code of my personal portfolio website.<br>
-[Visit My Portfolio](https://flaviaouyang.github.io/portfolio-site/)
 
 ## Technologies/Tools Used
 
@@ -14,16 +13,20 @@ The repository is the source code of my personal portfolio website.<br>
 - Designed wireframe, sitemap, and UI using Figma
 - Constructed basic layout of the site with HTML
 - Added basic style to site using CSS
+- Refactored Code for React
+
+Demo: Stage 1
+![Demo 001](demo-1.gif)
 
 ## Typography
 
 - Monument Extended<br>
 
-![monument extended font](img/Monument-Extended.jpg)
+![monument extended font](public/img/Monument-Extended.jpg)
 
 - Swiss 721<br>
 
-![swiss 721](img/swiss.png.webp)
+![swiss 721](public/img/swiss.png.webp)
 
 ## Issues
 
