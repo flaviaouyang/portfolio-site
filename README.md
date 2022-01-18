@@ -1,7 +1,6 @@
 # portfolio-site
 
 The repository is the source code of my personal portfolio website.<br>
-[Visit My Portfolio](https://flaviaouyang.github.io/portfolio-site/)
 
 ## Technologies/Tools Used
 
