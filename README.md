@@ -17,7 +17,7 @@ The repository is the source code of my personal portfolio website.<br>
 
 ## DEMO
 
-- Stage 1 <br>
+- Stage 1 <br><br>
 ![Demo 001](demo-1.gif)
 
 ## TYPOGRAPHY
