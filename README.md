@@ -22,6 +22,8 @@ The repository is the source code of my personal portfolio website.<br>
 - Stage 1 <br><br>
 ![Demo 001](demo-1.gif)
 
+<br>Visit this website for [a live demo](https://flaviaouyang.github.io/portfolio-site/)
+
 ## TYPOGRAPHY
 
 - Monument Extended<br>
