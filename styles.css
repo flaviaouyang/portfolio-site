@@ -1,0 +1,219 @@
+/* font face */
+@font-face {
+  font-family: "MonumentExtended Regular";
+  src: url(font/MonumentExtended-Regular.woff2) format("woff2"), url(MonumentExtended-Regular.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: "MonumentExtended UltraBold";
+  src: url(font/MonumentExtended-UltraBold.woff2) format("woff2"), url(MonumentExtended-UltraBold.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: "Swiss";
+  src: url(font/Swiss-721-BT-Regular.woff2) format("woff2"), url(Swiss-721-BT-Regular.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U + 000-5FF
+}
+
+* {
+  margin: 0px;
+}
+
+/* all links */
+a {
+  color: #0B4619;
+  text-decoration: none;
+}
+
+.link:hover,
+#nav-link:hover {
+  text-decoration: underline dashed !important;
+  -webkit-text-decoration-line: underline !important;
+  -webkit-text-decoration-style: dashed !important;
+  cursor: pointer !important;
+}
+
+/* header */
+
+.header-container {
+  margin: 10px;
+  margin-bottom: 0px;
+  /* border:1px solid black; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'MonumentExtended UltraBold', Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  height: 145px;
+}
+
+#logo {
+  font-family: "Swiss", serif;
+}
+
+.nav-parent {
+  position: fixed;
+  width: 100%;
+  top: 5;
+  z-index: 1;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Swiss", serif;
+  float: right;
+  margin-right: 15px;
+  /* opacity: 75%; */
+}
+
+/* intro statement on home page */
+.intro-container {
+  height: 660px;
+  width: 1300PX;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'MonumentExtended UltraBold', Arial, sans-serif;
+  color: #0B4619;
+  font-weight: 800;
+  font-size: 95px;
+  line-height: 1.1em;
+}
+
+/* ABOUT PAGE */
+.about-container {
+  display: flex;
+  flex-direction: row;
+  height: 800px;
+  width:1360px;
+}
+
+.about-banner-container {
+  margin-left: 10px;
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-start;
+  align-items: center;
+  border-right: 10px solid #0B4619;
+}
+
+.about-banner-text {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  font-family: 'MonumentExtended UltraBold', Arial, sans-serif;
+  color: #0B4619;
+  font-weight: 800;
+  font-size: 144px;
+  line-height: 110px;
+  text-align: center;
+}
+
+.about-me {
+  margin: 10px;
+  flex-grow: 5;
+  align-self: center;
+  font-family: 'MonumentExtended Regular', Arial, sans-serif;
+  color: #0B4619;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+.empty-space {
+  height: 150px;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+}
+
+.project-banner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  font-family: 'MonumentExtended UltraBold', Arial, sans-serif;
+  color: #0B4619;
+  font-weight: 800;
+  font-size: 144px;
+  line-height: 110px;
+  border-bottom: 10px solid #0B4619;
+}
+
+.project-banner-text-1 {
+  align-self: flex-start;
+}
+
+.project-banner-text-2 {
+  align-self: flex-end;
+}
+
+.project-text {
+  margin-top: 200px;
+  font-size: 60px;
+  text-align: center;
+  font-family: 'MonumentExtended UltraBold', Arial, sans-serif;
+}
+
+.blog-container {
+  height: 735px;
+}
+
+.blog-placeholder {
+  align-self: center;
+  width: 976px;
+  height: 314px;
+  margin-top: 150px;
+}
+
+.link-container {
+  flex-grow: 5;
+  display: flex;
+  flex-direction: column;
+  font-family: "Swiss", serif;
+  font-size: 64px;
+  line-height: 76px;
+  color: #0B4619;
+  text-transform: uppercase;
+  justify-content: space-evenly;
+  margin-left: 25px;
+}
+
+.footer-container {
+  background: #0B4619;
+  height: 55px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Swiss", serif;
+  color: #FFFFFF;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.design-by {
+  margin-left: 25px;
+}
+
+.copyright {
+  margin-right: 25px;
+}
