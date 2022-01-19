@@ -15,7 +15,7 @@ The repository is the source code of my personal portfolio website.<br>
 - Added basic style to site using CSS
 - Refactored Code for React
 
-Demo: Stage 1
+Demo: Stage 1 <br>
 ![Demo 001](demo-1.gif)
 
 ## Typography
