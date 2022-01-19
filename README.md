@@ -6,6 +6,8 @@ The repository is the source code of my personal portfolio website.<br>
 
 - HTML
 - CSS
+- JavaScript
+- React
 - Figma
 
 ## WORK FLOW
