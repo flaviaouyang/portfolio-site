@@ -1,24 +1,26 @@
-# portfolio-site
+# PORTFOLIO
 
 The repository is the source code of my personal portfolio website.<br>
 
-## Technologies/Tools Used
+## TECHNOLOGY AND TOOLS
 
 - HTML
 - CSS
 - Figma
 
-## Work Flow
+## WORK FLOW
 
 - Designed wireframe, sitemap, and UI using Figma
 - Constructed basic layout of the site with HTML
 - Added basic style to site using CSS
 - Refactored Code for React
 
-Demo: Stage 1 <br>
+## DEMO
+
+- Stage 1 <br>
 ![Demo 001](demo-1.gif)
 
-## Typography
+## TYPOGRAPHY
 
 - Monument Extended<br>
 
@@ -28,7 +30,7 @@ Demo: Stage 1 <br>
 
 ![swiss 721](public/img/swiss.png.webp)
 
-## Issues
+## ISSUE
 
 - 12/26/2021: font does not work in Safari (FIXED)
 - 12/26/2021: font-decoration underline dashed does not work in Safari (FIXED)
