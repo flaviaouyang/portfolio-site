@@ -30,18 +30,26 @@ The repository is the source code of my personal portfolio website.<br>
 
 ![swiss 721](public/img/swiss.png.webp)
 
+## RUN ON YOUR MACHINE
+
+- clone this repository: `git clone https://github.com/flaviaouyang/portfolio-site.git`
+- navigate to the cloned repository: `cd portfolio-site`
+- run using npm: `npm start`
+- a webpage should automatically open
+  - if not, visit: http://localhost:3000
+
 ## ISSUE
 
-- 12/26/2021: font does not work in Safari (FIXED)
-- 12/26/2021: font-decoration underline dashed does not work in Safari (FIXED)
-- 12/26/2021: nav bar fixed position does not work, will take it out of flexbox workflow (FIXED)
-- 01/06/2022: Favicon does not work with Safari (FIXED)
-- 01/10/2022: nav bar overlaps with some texts, looks careless (FIXED)
+- 12/26/2021: font does not work in Safari **(FIXED)**
+- 12/26/2021: font-decoration underline dashed does not work in Safari **(FIXED)**
+- 12/26/2021: nav bar fixed position does not work, will take it out of flexbox workflow **(FIXED)**
+- 01/06/2022: Favicon does not work with Safari **(FIXED)**
+- 01/10/2022: nav bar overlaps with some texts, looks careless **(FIXED)**
 
 ## `TODO`
 
 - [ ] add animated and interactive background
-- [ ] change the layout of blog posts section
+- [x] change the layout of blog posts section
 - [ ] responsive design for mobile users
 
 
