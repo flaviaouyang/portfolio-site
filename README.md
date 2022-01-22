@@ -30,6 +30,11 @@ The repository is the source code of my personal portfolio website.<br>
 - Stage 2 <br><br>
 ![Demo 002](demo-2.gif)
 <br>
+- First Deployment <br>
+
+​	<br>
+
+​	![first publication](portfolio-publish-1.gif)
 
 ## TYPOGRAPHY
 
