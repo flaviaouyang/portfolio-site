@@ -16,6 +16,7 @@ The repository is the source code of my personal portfolio website.<br>
 - Constructed basic layout of the site with HTML
 - Added basic style to site using CSS
 - Refactored Code for React
+- Added projects and minor changes in styles. (Ready to deploy)
 
 ## DEMO
 
@@ -52,7 +53,7 @@ The repository is the source code of my personal portfolio website.<br>
 
 ## `TODO`
 
-- [ ] add animated and interactive background
+- [x] add animated and interactive background
 - [x] change the layout of blog posts section
 - [ ] responsive design for mobile users
 
