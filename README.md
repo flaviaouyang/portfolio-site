@@ -2,7 +2,7 @@
 
 The repository is the source code of my personal portfolio website.<br>
 <br>
-[Visit my portfolio here](https://flaviaouyang.github.io/portfolio-site/)
+[VISIT MY PORTFOLIO HERE](https://flaviaouyang.github.io/portfolio-site/)
 
 ## TECHNOLOGY AND TOOLS
 
