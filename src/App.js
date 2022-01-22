@@ -131,7 +131,7 @@ const ProjectPage = () => {
 
 const BlogPage = () => {
   return (
-    <div class="project-container" id="blog">
+    <div class="project-container blog-container" id="blog">
       <div class="project-banner-container">
         <p class="project-banner-text-1">BLOG</p>
         <p class="project-banner-text-2">OVERVIEW &nbsp;&nbsp;</p>

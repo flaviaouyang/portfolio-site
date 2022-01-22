@@ -51,6 +51,7 @@ a {
 
 .header-container {
   margin: 10px;
+  margin-bottom: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -102,7 +103,7 @@ a {
 .about-container {
   display: flex;
   flex-direction: row;
-  height: 800px;
+  height: 850px;
   width: 1360px;
 }
 
@@ -236,6 +237,10 @@ a {
   color: black;
   margin: 50px;
   text-align: center;
+}
+
+.blog-container {
+  height: 750px;
 }
 
 /* Sweep To Top */
