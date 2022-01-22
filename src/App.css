@@ -28,6 +28,11 @@
   margin: 0px;
 }
 
+/* background */
+body {
+  background: no-repeat url("../public/img/background.png");
+}
+
 /* all links */
 a {
   color: #0B4619;
@@ -100,7 +105,7 @@ a {
   display: flex;
   flex-direction: row;
   height: 800px;
-  width:1360px;
+  width: 1360px;
 }
 
 .about-banner-container {
@@ -133,14 +138,53 @@ a {
   text-transform: uppercase;
 }
 
-.empty-space {
-  height: 150px;
+/* tech stack */
+.tech-stack {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(3, 33%);
+  grid-gap: 5px;
+  margin: 20px;
+  align-items: stretch;
+  justify-items: stretch;
+}
+
+.tech-stack-item {
+  text-align: center;
+  font-family: 'MonumentExtended UltraBold', Arial, sans-serif;
+  color: #0B4619;
+  padding: 50px;
+  margin: 5px;
+  font-size: 36px;
+  border: 4px solid black;
+  opacity: 0.8;
+}
+
+/* Forward */
+.forward {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
+.forward:hover,
+.forward:focus,
+.forward:active {
+  -webkit-transform: translateX(8px);
+  transform: translateX(8px);
 }
 
 .project-container {
   display: flex;
   flex-direction: column;
-  height: 800px;
+  /* height: 800px; */
+  margin-top: 100px;
 }
 
 .project-banner-container {
@@ -169,6 +213,139 @@ a {
   font-size: 60px;
   text-align: center;
   font-family: 'MonumentExtended UltraBold', Arial, sans-serif;
+}
+
+.project-item {
+  display: flex;
+  align-items: center;
+}
+
+.project-picture {
+  width: 765px;
+  height: 425px;
+  margin: 50px;
+  transition: all .2s ease-in-out;
+  border: 5px solid black;
+}
+
+.project-picture:hover {
+  transform: scale(1.1);
+}
+
+.project-description {
+  font-family: 'MonumentExtended UltraBold', Arial, sans-serif;
+  font-size: 45px;
+  color: black;
+  margin: 50px;
+  text-align: center;
+}
+
+/* Sweep To Top */
+.sweep-to-top {
+  color: black;
+  opacity: 1;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+.sweep-to-top:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: black;
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.tech-1:before {
+  font-family: 'MonumentExtended Regular', Arial, sans-serif;
+  text-align: center;
+  padding: 5px;
+  font-size: 17px;
+  color: rgb(243, 239, 182);
+  content: "Proficient with JS (ES6+), DOM, Event Handling, Object-Oriented Programming, JS data structures and various frameworks";
+}
+
+.tech-3:before {
+  font-family: 'MonumentExtended Regular', Arial, sans-serif;
+  text-align: center;
+  padding: 5px;
+  font-size: 16px;
+  color: rgb(243, 239, 182);
+  content: "Currently exploring three.js to incorporate 2D and 3D animations into webpages. Proficient in object creation, transformation and animation.";
+}
+
+.tech-4:before {
+  font-family: 'MonumentExtended Regular', Arial, sans-serif;
+  text-align: center;
+  padding: 5px;
+  font-size: 16px;
+  color: rgb(243, 239, 182);
+  content: "Proficient in Python 3. Familiar with Flask, Regex and Web Scraping. Have experience with various Python Libraries--pandas, matplotlib, numpy and others.";
+}
+
+.tech-10:before {
+  font-family: 'MonumentExtended Regular', Arial, sans-serif;
+  text-align: center;
+  padding: 5px;
+  font-size: 16px;
+  color: rgb(243, 239, 182);
+  content: "Familiar with the bash environment. Can write basic shell scripts to manipulate files and automate tasks. Comfortable working in terminal.";
+}
+
+.tech-11:before {
+  font-family: 'MonumentExtended Regular', Arial, sans-serif;
+  text-align: center;
+  padding: 5px;
+  font-size: 16px;
+  color: rgb(243, 239, 182);
+  content: "Working knowledge of Git and GitHub. Familiar with git basics, version control system on local machine, git branching, connecting to and working with remote repositories.";
+}
+
+.tech-12:before {
+  font-family: 'MonumentExtended Regular', Arial, sans-serif;
+  text-align: center;
+  padding: 5px;
+  font-size: 20px;
+  color: rgb(243, 239, 182);
+  content: "Working knowledge of Figma. Have experience creating site map, wire frames, and prototypes on Figma. ";
+}
+
+.sweep-to-top:hover,
+.sweep-to-top:focus,
+.sweep-to-top:active {
+  color: white;
+}
+
+.sweep-to-top:hover span {
+  display: none;
+}
+
+.sweep-to-top:hover:before,
+.sweep-to-top:focus:before,
+.sweep-to-top:active:before {
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
 }
 
 .blog-container {

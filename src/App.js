@@ -1,9 +1,11 @@
 import React from "react";
 import "./App.css";
 import blogPlaceholder from "./blog-placeholder.png";
+import etch from "./etch-a-sketch.png";
+import toDo from "./to-do.png";
 
 // navigation bar
-const Header = (props) => {
+const Header = () => {
   return (
     <header id="home">
       <div class="header-container">
@@ -35,7 +37,7 @@ const Header = (props) => {
 };
 
 // home Page
-const IntroPage = (props) => {
+const IntroPage = () => {
   return (
     <div class="intro-container">
       <p>FRONT-END</p>
@@ -46,7 +48,7 @@ const IntroPage = (props) => {
   );
 };
 
-const AboutPage = (props) => {
+const AboutPage = () => {
   return (
     <div class="about-container" id="about">
       <div class="about-banner-container">
@@ -58,34 +60,76 @@ const AboutPage = (props) => {
       <div class="about-me">
         &emsp;I am a senior computer science student at McGill University.
         <br />
+        <br />
         &emsp;I enjoy designing and creating animated & interactive web pages
         and web applications.
-        <br />
-        &emsp;I am proficient in <strong>JAVASCRIPT</strong>,{" "}
-        <strong>Java</strong>,<strong>Python</strong>, <strong>SQL</strong>,{" "}
-        <strong>PHP</strong>, React, C, C++, HTML, CSS, Figma and others.
       </div>
     </div>
   );
 };
 
-const EmptySpace = (props) => {
-  return <div class="empty-space"></div>;
+const Technology = () => {
+  return (
+    <div>
+      <div class="project-container project-banner-container">
+        <p class="project-banner-text-1">TECH</p>
+        <p class="project-banner-text-2">I KNOW&emsp;&emsp;</p>
+      </div>
+      <div class="tech-stack">
+        <p class="tech-stack-item sweep-to-top tech-1"><span>JS</span></p>
+        <p class="tech-stack-item tech-2"><span>React</span></p>
+        <p class="tech-stack-item sweep-to-top tech-3"><span>three.js</span></p>
+        <p class="tech-stack-item sweep-to-top tech-4"><span>Python</span></p>
+        <p class="tech-stack-item tech-5"><span>Flask</span></p>
+        <p class="tech-stack-item tech-6"><span>SQL</span></p>
+        <p class="tech-stack-item tech-7"><span>Java</span></p>
+        <p class="tech-stack-item tech-8"><span>PHP</span></p>
+        <p class="tech-stack-item tech-9"><span>HTML &#38; CSS</span></p>
+        <p class="tech-stack-item sweep-to-top tech-10"><span>Bash</span></p>
+        <p class="tech-stack-item sweep-to-top tech-11"><span>Version Control</span></p>
+        <p class="tech-stack-item sweep-to-top tech-12"><span>Figma</span></p>
+      </div>
+    </div>
+  );
 };
 
-const ProjectPage = (props) => {
+const ProjectItem = (props) => (
+  <div class="project-item">
+    <a href={props.link} target="_blank" rel="noreferrer">
+      <img src={props.img_src} alt={props.alt} class="project-picture"></img>
+    </a>
+    <a href={props.text_link} target="_blank" rel="noreferrer">
+      <p class="project-description sweep-to-top">{props.description}</p>
+    </a>
+  </div>
+);
+
+const ProjectPage = () => {
   return (
     <div class="project-container" id="project">
       <div class="project-banner-container">
         <p class="project-banner-text-1">SELECTED</p>
         <p class="project-banner-text-2">WORKS &nbsp;&nbsp;</p>
       </div>
-      <div class="about-me project-text">Under construction...</div>
+      <ProjectItem
+        link="https://flaviaouyang.github.io/etch-a-sketch/"
+        img_src={etch}
+        alt="UI of etch-a-sketch project"
+        text_link="https://github.com/flaviaouyang/etch-a-sketch"
+        description="A simple project built with vanilla JavaScript +"
+      />
+      <ProjectItem
+        link="https://github.com/flaviaouyang/brutally-minimalistic-to-do"
+        img_src={toDo}
+        alt="UI of to do list"
+        text_link="https://github.com/flaviaouyang/brutally-minimalistic-to-do"
+        description="A to-do web application built using Flask and Jinja +"
+      />
     </div>
   );
 };
 
-const BlogPage = (props) => {
+const BlogPage = () => {
   return (
     <div class="project-container" id="blog">
       <div class="project-banner-container">
@@ -101,7 +145,7 @@ const BlogPage = (props) => {
   );
 };
 
-const ContactPage = (props) => {
+const ContactPage = () => {
   return (
     <div class="project-container blog-container" id="contact">
       <div class="project-banner-container">
@@ -141,7 +185,7 @@ const ContactPage = (props) => {
   );
 };
 
-const Footer = (props) => {
+const Footer = () => {
   return (
     <footer>
       <div class="footer-container">
@@ -158,7 +202,7 @@ function App() {
       <Header />
       <IntroPage />
       <AboutPage />
-      <EmptySpace />
+      <Technology />
       <ProjectPage />
       <BlogPage />
       <ContactPage />
