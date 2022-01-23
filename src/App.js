@@ -185,7 +185,7 @@ const BlogPage = () => {
         <BlogItems
           link="https://flaviaouyang.github.io/web-development-foundation/"
           header="Web Development Foundation"
-          text="A collection of notes gathered from when I started learning web development. Content ranges from the basics of version control, the fundamentals of HTML and CSS, to an introduction of JavaScript +"
+          text="A collection of notes gathered from when I started learning web development. Content ranges from the basics of version control, the fundamentals of HTML and CSS to an extensive introduction of JavaScript +"
         />
         <BlogItems
           link="https://flaviaouyang.github.io/harvard-cs-50/"
