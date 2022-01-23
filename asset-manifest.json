@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-site/static/css/main.52eeff97.css",
-    "main.js": "/portfolio-site/static/js/main.b8b2ce2b.js",
+    "main.css": "/portfolio-site/static/css/main.1edbf03d.css",
+    "main.js": "/portfolio-site/static/js/main.f45a7353.js",
     "static/media/etch-a-sketch.png": "/portfolio-site/static/media/etch-a-sketch.69762efac879615175c7.png",
     "static/media/to-do.png": "/portfolio-site/static/media/to-do.6052adc2ff52b83ff3fc.png",
     "static/media/background.png": "/portfolio-site/static/media/background.482fe9e10867a0b228f5.png",
@@ -9,11 +9,11 @@
     "static/media/Swiss-721-BT-Regular.woff2": "/portfolio-site/static/media/Swiss-721-BT-Regular.4112b9b5035a23390c1c.woff2",
     "static/media/MonumentExtended-UltraBold.woff2": "/portfolio-site/static/media/MonumentExtended-UltraBold.3619fb45af037f580703.woff2",
     "index.html": "/portfolio-site/index.html",
-    "main.52eeff97.css.map": "/portfolio-site/static/css/main.52eeff97.css.map",
-    "main.b8b2ce2b.js.map": "/portfolio-site/static/js/main.b8b2ce2b.js.map"
+    "main.1edbf03d.css.map": "/portfolio-site/static/css/main.1edbf03d.css.map",
+    "main.f45a7353.js.map": "/portfolio-site/static/js/main.f45a7353.js.map"
   },
   "entrypoints": [
-    "static/css/main.52eeff97.css",
-    "static/js/main.b8b2ce2b.js"
+    "static/css/main.1edbf03d.css",
+    "static/js/main.f45a7353.js"
   ]
 }
