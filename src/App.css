@@ -31,6 +31,7 @@
 /* background */
 body {
   background:url("../public/img/background.png");
+  background-size: contain;
 }
 
 /* all links */
@@ -56,10 +57,31 @@ a {
   flex-direction: row;
   justify-content: space-between;
   font-family: 'MonumentExtended UltraBold', Arial, sans-serif;
-  font-size: 24px;
-  font-weight: 800;
-  height: 145px;
+  font-size: 25px;
+  height: 17vh;
 }
+
+@media only screen and (max-width: 600px) {
+  #logo {
+    font-size: 16px;
+  }
+  .header-container {
+    font-size: 16px;
+  }
+  .contact-container {
+    height: 35vh !important;
+  }
+  .about-container {
+    height: 40vh !important;
+  }
+  .footer-container {
+    height: 2vh !important;
+  }
+  .intro-container {
+    height: 35vh !important;
+  }
+}
+
 
 #logo {
   font-family: "Swiss", serif;
@@ -83,19 +105,16 @@ a {
 
 /* intro statement on home page */
 .intro-container {
-  height: 660px;
-  width: 1300PX;
+  height: 83.6vh;
   margin-left: 10px;
   margin-right: 10px;
-  margin-top: 0px;
-  margin-bottom: 0px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   font-family: 'MonumentExtended UltraBold', Arial, sans-serif;
   color: #0B4619;
   font-weight: 800;
-  font-size: 95px;
+  font-size: 7vw;
   line-height: 1.1em;
 }
 
@@ -103,8 +122,7 @@ a {
 .about-container {
   display: flex;
   flex-direction: row;
-  height: 850px;
-  width: 1360px;
+  height: 108vh;
 }
 
 .about-banner-container {
@@ -113,7 +131,7 @@ a {
   flex-grow: 1;
   justify-content: flex-start;
   align-items: center;
-  border-right: 10px solid #0B4619;
+  border-right: 0.69vw solid #0B4619;
 }
 
 .about-banner-text {
@@ -122,8 +140,8 @@ a {
   font-family: 'MonumentExtended UltraBold', Arial, sans-serif;
   color: #0B4619;
   font-weight: 800;
-  font-size: 144px;
-  line-height: 110px;
+  font-size: 10vw;
+  line-height: 7.63vw;
   text-align: center;
 }
 
@@ -133,7 +151,7 @@ a {
   align-self: center;
   font-family: 'MonumentExtended Regular', Arial, sans-serif;
   color: #0B4619;
-  font-size: 36px;
+  font-size: 2.5vw;
   text-transform: uppercase;
 }
 
@@ -143,7 +161,7 @@ a {
   grid-template-columns: repeat(4, 25%);
   grid-template-rows: repeat(3, 33%);
   grid-gap: 5px;
-  margin: 20px;
+  margin: 1.4vw;
   align-items: stretch;
   justify-items: stretch;
 }
@@ -152,38 +170,17 @@ a {
   text-align: center;
   font-family: 'MonumentExtended UltraBold', Arial, sans-serif;
   color: #0B4619;
-  padding: 50px;
-  margin: 5px;
-  font-size: 36px;
-  border: 4px solid black;
+  padding: 3.47vw;
+  margin: 0.347vw;
+  font-size: 2.5vw;
+  border: 0.28vw solid black;
   opacity: 0.8;
-}
-
-/* Forward */
-.forward {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-
-.forward:hover,
-.forward:focus,
-.forward:active {
-  -webkit-transform: translateX(8px);
-  transform: translateX(8px);
 }
 
 .project-container {
   display: flex;
   flex-direction: column;
-  /* height: 800px; */
-  margin-top: 100px;
+  margin-top: 6.25vw !important;
 }
 
 .project-banner-container {
@@ -195,9 +192,9 @@ a {
   font-family: 'MonumentExtended UltraBold', Arial, sans-serif;
   color: #0B4619;
   font-weight: 800;
-  font-size: 144px;
-  line-height: 110px;
-  border-bottom: 10px solid #0B4619;
+  font-size: 10vw;
+  line-height: 7.64vw;
+  border-bottom: 0.69vw solid #0B4619;
 }
 
 .project-banner-text-1 {
@@ -208,24 +205,17 @@ a {
   align-self: flex-end;
 }
 
-.project-text {
-  margin-top: 200px;
-  font-size: 60px;
-  text-align: center;
-  font-family: 'MonumentExtended UltraBold', Arial, sans-serif;
-}
-
 .project-item {
   display: flex;
   align-items: center;
 }
 
 .project-picture {
-  width: 765px;
-  height: 425px;
-  margin: 50px;
+  width: 53.125vw;
+  height: 29.51388888888889vw;
+  margin: 3.4722222222222223vw;
   transition: all .2s ease-in-out;
-  border: 5px solid black;
+  border: 0.347vw solid black;
 }
 
 .project-picture:hover {
@@ -234,39 +224,39 @@ a {
 
 .project-description {
   font-family: 'MonumentExtended UltraBold', Arial, sans-serif;
-  font-size: 45px;
+  font-size: 3.125vw;
   color: black;
-  margin: 50px;
+  margin: 3.4722222222222223vw;
   text-align: center;
 }
 
 .blog-item-container {
   display: grid;
   grid-template-columns: repeat(2, 50%);
-  gap: 30px;
-  margin-left: 100px;
-  margin-right: 110px;
+  gap: 2.0833333333333335vw;
+  margin-left: 6.944444444444445vw;
+  margin-right: 7.638888888888889vw;
   color: black;
-  margin-top: 40px;
+  margin-top: 2.7777777777777777vw;
 }
 
 .blog-item {
-  padding: 20px;
-  margin: 10px;
+  padding: 1.3888888888888888vw;
+  margin: 0.6944444444444444vw;
 }
 
 .blog-title {
   font-family: 'MonumentExtended UltraBold', Arial, sans-serif;
-  font-size: 30px;
+  font-size: 2.0833333333333335vw;
   text-transform: uppercase;
   text-align: center;
-  margin: 10px;
+  margin: 0.6944444444444444vw;
 }
 
 .blog-content {
   font-family: "Swiss", serif;
-  font-size: 30px;
-  margin: 20px;
+  font-size: 2.0833333333333335vw;
+  margin: 1.3888888888888888vw;
 }
 
 /* Sweep To Top */
@@ -310,7 +300,7 @@ a {
   font-family: 'MonumentExtended Regular', Arial, sans-serif;
   text-align: center;
   padding: 5px;
-  font-size: 17px;
+  font-size: 1.18vw;
   color: rgb(243, 239, 182);
   content: "Proficient with JS (ES6+), DOM, Event Handling, Object-Oriented Programming, JS data structures and various frameworks";
 }
@@ -319,7 +309,7 @@ a {
   font-family: 'MonumentExtended Regular', Arial, sans-serif;
   text-align: center;
   padding: 5px;
-  font-size: 16px;
+  font-size: 1.11vw;
   color: rgb(243, 239, 182);
   content: "Currently exploring three.js to incorporate 2D and 3D animations into webpages. Proficient in object creation, transformation and animation.";
 }
@@ -328,7 +318,7 @@ a {
   font-family: 'MonumentExtended Regular', Arial, sans-serif;
   text-align: center;
   padding: 5px;
-  font-size: 16px;
+  font-size: 1.11vw;
   color: rgb(243, 239, 182);
   content: "Proficient in Python 3. Familiar with Flask, Regex and Web Scraping. Have experience with various Python Libraries--pandas, matplotlib, numpy and others.";
 }
@@ -337,7 +327,7 @@ a {
   font-family: 'MonumentExtended Regular', Arial, sans-serif;
   text-align: center;
   padding: 5px;
-  font-size: 16px;
+  font-size: 1.11vw;
   color: rgb(243, 239, 182);
   content: "Familiar with the bash environment. Can write basic shell scripts to manipulate files and automate tasks. Comfortable working in terminal.";
 }
@@ -346,7 +336,7 @@ a {
   font-family: 'MonumentExtended Regular', Arial, sans-serif;
   text-align: center;
   padding: 5px;
-  font-size: 16px;
+  font-size: 1.11vw;
   color: rgb(243, 239, 182);
   content: "Working knowledge of Git and GitHub. Familiar with git basics, version control system on local machine, git branching, connecting to and working with remote repositories.";
 }
@@ -355,7 +345,7 @@ a {
   font-family: 'MonumentExtended Regular', Arial, sans-serif;
   text-align: center;
   padding: 5px;
-  font-size: 20px;
+  font-size: 1vw;
   color: rgb(243, 239, 182);
   content: "Working knowledge of Figma. Have experience creating site map, wire frames, and prototypes on Figma. ";
 }
@@ -378,14 +368,7 @@ a {
 }
 
 .contact-container {
-  height: 735px;
-}
-
-.blog-placeholder {
-  align-self: center;
-  width: 976px;
-  height: 314px;
-  margin-top: 150px;
+  height: 93.15589353612167vh;
 }
 
 .link-container {
@@ -393,17 +376,17 @@ a {
   display: flex;
   flex-direction: column;
   font-family: "Swiss", serif;
-  font-size: 64px;
-  line-height: 76px;
+  font-size: 4.444444444444445vw;
+  line-height: 5.277777777777778vw;
   color: #0B4619;
   text-transform: uppercase;
   justify-content: space-evenly;
-  margin-left: 25px;
+  margin-left: 1.7361111111111112vw;
 }
 
 .footer-container {
   background: #0B4619;
-  height: 55px;
+  height: 6.97084917617237vh;
   border: 1px solid black;
   display: flex;
   flex-direction: row;
@@ -411,14 +394,14 @@ a {
   align-items: center;
   font-family: "Swiss", serif;
   color: #FFFFFF;
-  font-size: 24px;
+  font-size: 1.6666666666666667vw;
   text-transform: uppercase;
 }
 
 .design-by {
-  margin-left: 25px;
+  margin-left: 1.7361111111111112vw;
 }
 
 .copyright {
-  margin-right: 25px;
+  margin-right: 1.7361111111111112vw;
 }

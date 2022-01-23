@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-import blogPlaceholder from "./blog-placeholder.png";
 import etch from "./etch-a-sketch.png";
 import toDo from "./to-do.png";
 
