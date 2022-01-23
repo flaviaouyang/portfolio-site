@@ -27,7 +27,7 @@ const Header = () => {
               PROJECT
             </a>
             <a id="nav-link" href="#blog">
-              BLOG
+              WRITINGS
             </a>
             <a id="nav-link" href="#contact">
               CONTACT
@@ -79,18 +79,42 @@ const Technology = () => {
         <p class="project-banner-text-2">I KNOW&emsp;&emsp;</p>
       </div>
       <div class="tech-stack">
-        <p class="tech-stack-item sweep-to-top tech-1"><span>JS</span></p>
-        <p class="tech-stack-item tech-2"><span>React</span></p>
-        <p class="tech-stack-item sweep-to-top tech-3"><span>three.js</span></p>
-        <p class="tech-stack-item sweep-to-top tech-4"><span>Python</span></p>
-        <p class="tech-stack-item tech-5"><span>Flask</span></p>
-        <p class="tech-stack-item tech-6"><span>SQL</span></p>
-        <p class="tech-stack-item tech-7"><span>Java</span></p>
-        <p class="tech-stack-item tech-8"><span>PHP</span></p>
-        <p class="tech-stack-item tech-9"><span>HTML &#38; CSS</span></p>
-        <p class="tech-stack-item sweep-to-top tech-10"><span>Bash</span></p>
-        <p class="tech-stack-item sweep-to-top tech-11"><span>Version Control</span></p>
-        <p class="tech-stack-item sweep-to-top tech-12"><span>Figma</span></p>
+        <p class="tech-stack-item sweep-to-top tech-1">
+          <span>JS</span>
+        </p>
+        <p class="tech-stack-item tech-2">
+          <span>React</span>
+        </p>
+        <p class="tech-stack-item sweep-to-top tech-3">
+          <span>three.js</span>
+        </p>
+        <p class="tech-stack-item sweep-to-top tech-4">
+          <span>Python</span>
+        </p>
+        <p class="tech-stack-item tech-5">
+          <span>Flask</span>
+        </p>
+        <p class="tech-stack-item tech-6">
+          <span>SQL</span>
+        </p>
+        <p class="tech-stack-item tech-7">
+          <span>Java</span>
+        </p>
+        <p class="tech-stack-item tech-8">
+          <span>PHP</span>
+        </p>
+        <p class="tech-stack-item tech-9">
+          <span>HTML &#38; CSS</span>
+        </p>
+        <p class="tech-stack-item sweep-to-top tech-10">
+          <span>Bash</span>
+        </p>
+        <p class="tech-stack-item sweep-to-top tech-11">
+          <span>Version Control</span>
+        </p>
+        <p class="tech-stack-item sweep-to-top tech-12">
+          <span>Figma</span>
+        </p>
       </div>
     </div>
   );
@@ -132,25 +156,50 @@ const ProjectPage = () => {
   );
 };
 
+const BlogItems = (props) => {
+  return (
+    <div>
+      <a href={props.link} target="_blank" rel="noreferrer">
+        <div class="blog-item sweep-to-top">
+          <p class="blog-title">{props.header}</p>
+          <p class="blog-content">{props.text}</p>
+        </div>
+      </a>
+    </div>
+  );
+};
+
 const BlogPage = () => {
   return (
     <div class="project-container blog-container" id="blog">
       <div class="project-banner-container">
-        <p class="project-banner-text-1">BLOG</p>
-        <p class="project-banner-text-2">OVERVIEW &nbsp;&nbsp;</p>
+        <p class="project-banner-text-1">MY</p>
+        <p class="project-banner-text-2">WRITINGS&nbsp;&nbsp;&nbsp;</p>
       </div>
-      <img
-        src={blogPlaceholder}
-        class="project-text blog-placeholder"
-        alt="Under Construction Sign"
-      ></img>
+      <div class="blog-item-container">
+        <BlogItems
+          link="https://flaviaouyang.github.io/three.js-journey/"
+          header="A three.js journey: an orange cube"
+          text="A documentation of my journey to learn three.js. Starting from a spinning orange cube in the middle of a black screen, I'm excited to see how far this journey will take me +"
+        />
+        <BlogItems
+          link="https://flaviaouyang.github.io/web-development-foundation/"
+          header="Web Development Foundation"
+          text="A collection of notes gathered from when I started learning web development. Content ranges from the basics of version control, the fundamentals of HTML and CSS, to an introduction of JavaScript +"
+        />
+        <BlogItems
+          link="https://flaviaouyang.github.io/harvard-cs-50/"
+          header="Harvard CS50"
+          text="Everything related to the popular introduction to cs course taught by David J. Martin. I took this course during sophomore year summer and thoroughly enjoyed it. I'm sharing my notes and source code in hopes of helping someone who's on the same path +"
+        />
+      </div>
     </div>
   );
 };
 
 const ContactPage = () => {
   return (
-    <div class="project-container blog-container" id="contact">
+    <div class="project-container contact-container" id="contact">
       <div class="project-banner-container">
         <p class="project-banner-text-1">SAY HI</p>
         <p class="project-banner-text-2">WHY NOT&nbsp;&nbsp;&nbsp;</p>

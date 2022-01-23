@@ -30,7 +30,7 @@
 
 /* background */
 body {
-  background: no-repeat url("../public/img/background.png");
+  background:url("../public/img/background.png");
 }
 
 /* all links */
@@ -187,6 +187,7 @@ a {
 }
 
 .project-banner-container {
+  margin: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -239,8 +240,33 @@ a {
   text-align: center;
 }
 
-.blog-container {
-  height: 750px;
+.blog-item-container {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  gap: 30px;
+  margin-left: 100px;
+  margin-right: 110px;
+  color: black;
+  margin-top: 40px;
+}
+
+.blog-item {
+  padding: 20px;
+  margin: 10px;
+}
+
+.blog-title {
+  font-family: 'MonumentExtended UltraBold', Arial, sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 10px;
+}
+
+.blog-content {
+  font-family: "Swiss", serif;
+  font-size: 30px;
+  margin: 20px;
 }
 
 /* Sweep To Top */
@@ -351,7 +377,7 @@ a {
   transform: scaleY(1);
 }
 
-.blog-container {
+.contact-container {
   height: 735px;
 }
 
