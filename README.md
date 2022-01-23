@@ -24,17 +24,12 @@ The repository is the source code of my personal portfolio website.<br>
 
 - Stage 1 <br><br>
 ![Demo 001](demo-1.gif)
-
 <br>
-
 - Stage 2 <br><br>
 ![Demo 002](demo-2.gif)
 <br>
-- First Deployment <br>
-
-​	<br>
-
-​	![first publication](portfolio-publish-1.gif)
+- First Deployment <br><br>
+![first publication](portfolio-publish-1.gif)
 
 ## TYPOGRAPHY
 
@@ -66,7 +61,7 @@ The repository is the source code of my personal portfolio website.<br>
 
 - [x] add animated and interactive background
 - [x] change the layout of blog posts section
-- [ ] responsive design for mobile users
+- [x] responsive design for mobile users
 
 
 
