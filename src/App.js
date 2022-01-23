@@ -20,6 +20,9 @@ const Header = () => {
             <a id="nav-link" href="#about">
               ABOUT
             </a>
+            <a id="nav-link" href="#tech-stack">
+              TECH
+            </a>
             <a id="nav-link" href="#project">
               PROJECT
             </a>
@@ -71,7 +74,7 @@ const AboutPage = () => {
 const Technology = () => {
   return (
     <div>
-      <div class="project-container project-banner-container">
+      <div class="project-container project-banner-container" id="tech-stack">
         <p class="project-banner-text-1">TECH</p>
         <p class="project-banner-text-2">I KNOW&emsp;&emsp;</p>
       </div>
@@ -116,7 +119,7 @@ const ProjectPage = () => {
         img_src={etch}
         alt="UI of etch-a-sketch project"
         text_link="https://github.com/flaviaouyang/etch-a-sketch"
-        description="A simple project built with vanilla JavaScript +"
+        description="An web application built with vanilla JavaScript +"
       />
       <ProjectItem
         link="https://github.com/flaviaouyang/brutally-minimalistic-to-do"
