@@ -63,10 +63,10 @@ a {
 
 @media only screen and (max-width: 600px) {
   #logo {
-    font-size: 16px;
+    font-size: 8px;
   }
   .header-container {
-    font-size: 16px;
+    font-size: 8px;
   }
   .contact-container {
     height: 35vh !important;
@@ -79,6 +79,36 @@ a {
   }
   .intro-container {
     height: 35vh !important;
+    font-size: 5.3vw !important;
+  }
+  .tech-stack {
+    margin-right: 20vw !important;
+    margin-bottom: 10vh !important;
+  }
+  .tech-12:before {
+    font-size: 3vw !important;
+  }
+  .tech-11:before {
+    font-size: 2.5vw !important;
+  }
+  .tech-10:before {
+    font-size: 2.5vw !important;
+  }
+  .tech-4:before {
+    font-size: 2.3vw !important;
+  }
+  .tech-3:before {
+    font-size: 2.5vw !important;
+  }
+  .tech-1:before {
+    font-size: 2.5vw !important;
+  }
+  .nav-container {
+    padding-right: 20px !important;
+  }
+
+  .tech-stack-item {
+    font-size: 4vw !important;
   }
 }
 
@@ -106,15 +136,15 @@ a {
 /* intro statement on home page */
 .intro-container {
   height: 83.6vh;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 3vw;
+  margin-right: 25vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   font-family: 'MonumentExtended UltraBold', Arial, sans-serif;
   color: #0B4619;
   font-weight: 800;
-  font-size: 7vw;
+  font-size: 5vw;
   line-height: 1.1em;
 }
 
@@ -146,7 +176,8 @@ a {
 }
 
 .about-me {
-  margin: 10px;
+  margin: 5vw;
+  margin-right:15vw;
   flex-grow: 5;
   align-self: center;
   font-family: 'MonumentExtended Regular', Arial, sans-serif;
@@ -158,19 +189,21 @@ a {
 /* tech stack */
 .tech-stack {
   display: grid;
-  grid-template-columns: repeat(4, 25%);
-  grid-template-rows: repeat(3, 33%);
-  grid-gap: 5px;
-  margin: 1.4vw;
-  align-items: stretch;
-  justify-items: stretch;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(5, 20%);
+  grid-gap: 1vw;
+  margin: 3vw;
+  margin-left: 14vw;
+  margin-right: 15.5vw;
+  height: 130vh;
+  margin-bottom: 30vh;
 }
 
 .tech-stack-item {
   text-align: center;
   font-family: 'MonumentExtended UltraBold', Arial, sans-serif;
   color: #0B4619;
-  padding: 3.47vw;
+  padding: 5vw;
   margin: 0.347vw;
   font-size: 2.5vw;
   border: 0.28vw solid black;
@@ -300,7 +333,7 @@ a {
   font-family: 'MonumentExtended Regular', Arial, sans-serif;
   text-align: center;
   padding: 5px;
-  font-size: 1.18vw;
+  font-size: 1.5vw;
   color: rgb(243, 239, 182);
   content: "Proficient with JS (ES6+), DOM, Event Handling, Object-Oriented Programming, JS data structures and various frameworks";
 }
@@ -309,7 +342,7 @@ a {
   font-family: 'MonumentExtended Regular', Arial, sans-serif;
   text-align: center;
   padding: 5px;
-  font-size: 1.11vw;
+  font-size: 1.5vw;
   color: rgb(243, 239, 182);
   content: "Currently exploring three.js to incorporate 2D and 3D animations into webpages. Proficient in object creation, transformation and animation.";
 }
@@ -318,7 +351,7 @@ a {
   font-family: 'MonumentExtended Regular', Arial, sans-serif;
   text-align: center;
   padding: 5px;
-  font-size: 1.11vw;
+  font-size: 1.3vw;
   color: rgb(243, 239, 182);
   content: "Proficient in Python 3. Familiar with Flask, Regex and Web Scraping. Have experience with various Python Libraries--pandas, matplotlib, numpy and others.";
 }
@@ -327,7 +360,7 @@ a {
   font-family: 'MonumentExtended Regular', Arial, sans-serif;
   text-align: center;
   padding: 5px;
-  font-size: 1.11vw;
+  font-size: 1.3vw;
   color: rgb(243, 239, 182);
   content: "Familiar with the bash environment. Can write basic shell scripts to manipulate files and automate tasks. Comfortable working in terminal.";
 }
@@ -336,16 +369,16 @@ a {
   font-family: 'MonumentExtended Regular', Arial, sans-serif;
   text-align: center;
   padding: 5px;
-  font-size: 1.11vw;
+  font-size: 1.4vw;
   color: rgb(243, 239, 182);
-  content: "Working knowledge of Git and GitHub. Familiar with git basics, version control system on local machine, git branching, connecting to and working with remote repositories.";
+  content: "Working knowledge of Git and GitHub. Familiar with git basics, version control system on local machine, git branching, and working with remote repositories.";
 }
 
 .tech-12:before {
   font-family: 'MonumentExtended Regular', Arial, sans-serif;
   text-align: center;
   padding: 5px;
-  font-size: 1vw;
+  font-size: 1.6vw;
   color: rgb(243, 239, 182);
   content: "Working knowledge of Figma. Have experience creating site map, wire frames, and prototypes on Figma. ";
 }

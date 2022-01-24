@@ -60,7 +60,7 @@ const AboutPage = () => {
         </p>
       </div>
       <div class="about-me">
-        &emsp;I am a senior computer science student at McGill University.
+        &emsp;I am a senior computer science student studying at McGill University.
         <br />
         <br />
         &emsp;I enjoy designing and creating animated & interactive web pages
@@ -75,7 +75,7 @@ const Technology = () => {
     <div>
       <div class="project-container project-banner-container" id="tech-stack">
         <p class="project-banner-text-1">TECH</p>
-        <p class="project-banner-text-2">I KNOW&emsp;&emsp;</p>
+        <p class="project-banner-text-2">STACK&emsp;&emsp;</p>
       </div>
       <div class="tech-stack">
         <p class="tech-stack-item sweep-to-top tech-1">
@@ -99,17 +99,11 @@ const Technology = () => {
         <p class="tech-stack-item tech-7">
           <span>Java</span>
         </p>
-        <p class="tech-stack-item tech-8">
-          <span>PHP</span>
-        </p>
-        <p class="tech-stack-item tech-9">
-          <span>HTML &#38; CSS</span>
-        </p>
         <p class="tech-stack-item sweep-to-top tech-10">
           <span>Bash</span>
         </p>
         <p class="tech-stack-item sweep-to-top tech-11">
-          <span>Version Control</span>
+          <span>Git</span>
         </p>
         <p class="tech-stack-item sweep-to-top tech-12">
           <span>Figma</span>
