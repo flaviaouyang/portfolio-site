@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-site/static/css/main.fe57e705.css",
+    "main.css": "/portfolio-site/static/css/main.e4a4a66c.css",
     "main.js": "/portfolio-site/static/js/main.d419ef80.js",
     "static/media/etch-a-sketch.png": "/portfolio-site/static/media/etch-a-sketch.69762efac879615175c7.png",
     "static/media/to-do.png": "/portfolio-site/static/media/to-do.6052adc2ff52b83ff3fc.png",
@@ -9,11 +9,11 @@
     "static/media/Swiss-721-BT-Regular.woff2": "/portfolio-site/static/media/Swiss-721-BT-Regular.4112b9b5035a23390c1c.woff2",
     "static/media/MonumentExtended-UltraBold.woff2": "/portfolio-site/static/media/MonumentExtended-UltraBold.3619fb45af037f580703.woff2",
     "index.html": "/portfolio-site/index.html",
-    "main.fe57e705.css.map": "/portfolio-site/static/css/main.fe57e705.css.map",
+    "main.e4a4a66c.css.map": "/portfolio-site/static/css/main.e4a4a66c.css.map",
     "main.d419ef80.js.map": "/portfolio-site/static/js/main.d419ef80.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe57e705.css",
+    "static/css/main.e4a4a66c.css",
     "static/js/main.d419ef80.js"
   ]
 }
