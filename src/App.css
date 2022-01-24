@@ -107,8 +107,53 @@ a {
     padding-right: 20px !important;
   }
 
+  .tech-stack {
+    grid-template-columns: repeat(2, 50%) !important;
+    grid-template-rows: repeat(5, 20%) !important;
+  }
+
   .tech-stack-item {
     font-size: 4vw !important;
+  }
+
+  .project-item {
+    display: flex !important;
+    flex-direction: column !important;
+    margin: 0px !important;
+    margin-right: 2vw !important;
+  }
+
+  .project-picture {
+    width: 70vw !important;
+    height: 40vw !important;
+  }
+
+  .project-description {
+    font-size: 6vw !important;
+    margin-left: 15vw !important;
+    margin-right: 15vw !important;
+    text-align: center !important;
+  }
+
+  .blog-item-container {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  
+  .blog-item {
+    margin: 7vw !important;
+    background: rgba(255, 255, 255, 0.9) !important;
+    border-radius: 5vw !important;
+  }
+
+  .blog-title {
+    font-size: 7vw !important;
+    border-bottom: 1vw solid black !important;
+  }
+
+  .blog-content {
+    font-size: 5vw !important;
+    text-align: center !important;
   }
 }
 
@@ -189,8 +234,8 @@ a {
 /* tech stack */
 .tech-stack {
   display: grid;
-  grid-template-columns: repeat(2, 50%);
-  grid-template-rows: repeat(5, 20%);
+  grid-template-columns: repeat(3, 33%);
+  grid-template-rows: repeat(4, 25%);
   grid-gap: 1vw;
   margin: 3vw;
   margin-left: 14vw;
@@ -241,6 +286,7 @@ a {
 .project-item {
   display: flex;
   align-items: center;
+  margin-right: 20vw;
 }
 
 .project-picture {
@@ -257,7 +303,7 @@ a {
 
 .project-description {
   font-family: 'MonumentExtended UltraBold', Arial, sans-serif;
-  font-size: 3.125vw;
+  font-size: 3vw;
   color: black;
   margin: 3.4722222222222223vw;
   text-align: center;
@@ -342,7 +388,7 @@ a {
   font-family: 'MonumentExtended Regular', Arial, sans-serif;
   text-align: center;
   padding: 5px;
-  font-size: 1.5vw;
+  font-size: 1.3vw;
   color: rgb(243, 239, 182);
   content: "Currently exploring three.js to incorporate 2D and 3D animations into webpages. Proficient in object creation, transformation and animation.";
 }
@@ -369,7 +415,7 @@ a {
   font-family: 'MonumentExtended Regular', Arial, sans-serif;
   text-align: center;
   padding: 5px;
-  font-size: 1.4vw;
+  font-size: 1.3vw;
   color: rgb(243, 239, 182);
   content: "Working knowledge of Git and GitHub. Familiar with git basics, version control system on local machine, git branching, and working with remote repositories.";
 }
@@ -378,7 +424,7 @@ a {
   font-family: 'MonumentExtended Regular', Arial, sans-serif;
   text-align: center;
   padding: 5px;
-  font-size: 1.6vw;
+  font-size: 1.3vw;
   color: rgb(243, 239, 182);
   content: "Working knowledge of Figma. Have experience creating site map, wire frames, and prototypes on Figma. ";
 }
