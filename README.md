@@ -43,6 +43,7 @@ The repository is the source code of my personal portfolio website.<br>
 
 - clone this repository: `git clone https://github.com/flaviaouyang/portfolio-site.git`
 - navigate to the cloned repository: `cd portfolio-site`
+- install dependencies: `npm install`
 - run using npm: `npm start`
 - a webpage should automatically open
   - if not, visit: http://localhost:3000
