@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import etch from "./etch-a-sketch.png";
 import toDo from "./to-do.png";
+import wordle from "./wordle.png";
 
 // navigation bar
 const Header = () => {
@@ -131,6 +132,13 @@ const ProjectPage = () => {
         <p class="project-banner-text-1">SELECTED</p>
         <p class="project-banner-text-2">WORKS &nbsp;&nbsp;</p>
       </div>
+      <ProjectItem
+        link="https://github.com/flaviaouyang/python-CLI-wordle"
+        img_src={wordle}
+        alt="CLI Wordle Game"
+        text_link="https://github.com/flaviaouyang/python-CLI-wordle"
+        description="A CLI Wordle Game written in pure Python +"
+      />
       <ProjectItem
         link="https://flaviaouyang.github.io/etch-a-sketch/"
         img_src={etch}
