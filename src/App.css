@@ -24,6 +24,10 @@
   unicode-range: U + 000-5FF
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0px;
 }
