@@ -189,6 +189,11 @@ const BlogPage = () => {
           text="A collection of notes gathered from when I started learning web development. Content ranges from the basics of version control, the fundamentals of HTML and CSS to an extensive introduction of JavaScript +"
         />
         <BlogItems
+          link="https://flaviaouyang.github.io/data-structure-and-algorithms/"
+          header="Data Structure and Algorithms"
+          text="My personal DSA notes. Compiled from content taught in COMP 250, 251, and 360 at McGill University. It also includes implementation of some concepts in Java and JavaScript +"
+        />
+        <BlogItems
           link="https://flaviaouyang.github.io/harvard-cs-50/"
           header="Harvard CS50"
           text="Everything related to the popular introduction to cs course taught by David J. Martin. I took this course during sophomore year summer and thoroughly enjoyed it. I'm sharing my notes and source code in hopes of helping someone who's on the same path +"
