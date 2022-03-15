@@ -3,6 +3,7 @@ import "./App.css";
 import etch from "./etch-a-sketch.png";
 import toDo from "./to-do.png";
 import wordle from "./wordle.png";
+import sf from "./sf.png";
 
 // navigation bar
 const Header = () => {
@@ -100,14 +101,20 @@ const Technology = () => {
         <p class="tech-stack-item tech-7">
           <span>Java</span>
         </p>
+        <p class="tech-stack-item tech-7">
+          <span>PHP</span>
+        </p>
+        <p class="tech-stack-item tech-7">
+          <span>Node.js</span>
+        </p>
+        <p class="tech-stack-item tech-7">
+          <span>C & C++</span>
+        </p>
+        <p class="tech-stack-item tech-7">
+          <span>Mongo DB</span>
+        </p>
         <p class="tech-stack-item sweep-to-top tech-10">
           <span>Bash</span>
-        </p>
-        <p class="tech-stack-item sweep-to-top tech-11">
-          <span>Git</span>
-        </p>
-        <p class="tech-stack-item sweep-to-top tech-12">
-          <span>Figma</span>
         </p>
       </div>
     </div>
@@ -132,6 +139,13 @@ const ProjectPage = () => {
         <p class="project-banner-text-1">SELECTED</p>
         <p class="project-banner-text-2">WORKS &nbsp;&nbsp;</p>
       </div>
+      <ProjectItem
+        link="https://github.com/flaviaouyang/Sages-Femmes-du-Quebec-Database"
+        img_src={sf}
+        alt="Database Application"
+        text_link="https://github.com/flaviaouyang/Sages-Femmes-du-Quebec-Database"
+        description="A Database Application for Midwife program in Quebec +"
+      />
       <ProjectItem
         link="https://github.com/flaviaouyang/python-CLI-wordle"
         img_src={wordle}
