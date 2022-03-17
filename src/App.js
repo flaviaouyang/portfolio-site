@@ -1,4 +1,5 @@
 import React from "react";
+import Typical from "react-typical";
 import "./App.css";
 import etch from "./etch-a-sketch.png";
 import toDo from "./to-do.png";
@@ -44,9 +45,28 @@ const Header = () => {
 const IntroPage = () => {
   return (
     <div class="intro-container">
-      <p>FRONT-END</p>
-      <p>WEB DEVELOPER</p>
-      <p>BASED IN MONTRÉAL</p>
+      <p>Hello, I'm a</p>
+      <p class="intro-animation">
+        <Typical
+          loop={3}
+          wrapper="p"
+          steps={[
+            "Software Engineer",
+            1000,
+            "Web Developer",
+            1000,
+            "Student",
+            500,
+            "Designer",
+            500,
+            "Coder",
+            500,
+          ]}
+        />
+      </p>
+      <p>
+        BASED IN <span class="title-word">MONTRÉAL</span>
+      </p>
       <p>CANADA</p>
     </div>
   );
@@ -62,11 +82,20 @@ const AboutPage = () => {
         </p>
       </div>
       <div class="about-me">
-        &emsp;I am a senior computer science student studying at McGill University.
+        &emsp;I am a senior computer science student studying at McGill University. 
+        I enjoy designing and developing webpages and web applications to create a dynamic user experience. 
+        With a passion for UI effects and animation,
+        I am always learning new technologies. 
+        At the moment, I am spending some time with three.js and gsap.
         <br />
         <br />
-        &emsp;I enjoy designing and creating animated & interactive web pages
-        and web applications.
+        &emsp;More on the personal side, I'm motivated, self-disciplined and organized.
+        And I always like a good challenge. I currently reside in Montreal, but I'm open to relocating anywhere within Canada.
+        When I'm not working or coding, I enjoy French cinema, 20th century American literature,
+        and going on long, aimless walks around the city.
+        <br />
+        <br />
+        &emsp;If you want to know more about me, you can keep scrolling to find out what technologies I know, my projects, and some of my writings.
       </div>
     </div>
   );
@@ -80,40 +109,40 @@ const Technology = () => {
         <p class="project-banner-text-2">STACK&emsp;&emsp;</p>
       </div>
       <div class="tech-stack">
-        <p class="tech-stack-item sweep-to-top tech-1">
+        <p class="tech-stack-item">
           <span>JS</span>
         </p>
-        <p class="tech-stack-item tech-2">
+        <p class="tech-stack-item">
           <span>React</span>
         </p>
-        <p class="tech-stack-item sweep-to-top tech-3">
+        <p class="tech-stack-item">
           <span>three.js</span>
         </p>
-        <p class="tech-stack-item sweep-to-top tech-4">
+        <p class="tech-stack-item">
           <span>Python</span>
         </p>
-        <p class="tech-stack-item tech-5">
+        <p class="tech-stack-item">
           <span>Flask</span>
         </p>
-        <p class="tech-stack-item tech-6">
+        <p class="tech-stack-item">
           <span>SQL</span>
         </p>
-        <p class="tech-stack-item tech-7">
+        <p class="tech-stack-item">
           <span>Java</span>
         </p>
-        <p class="tech-stack-item tech-7">
+        <p class="tech-stack-item">
           <span>PHP</span>
         </p>
-        <p class="tech-stack-item tech-7">
+        <p class="tech-stack-item">
           <span>Node.js</span>
         </p>
-        <p class="tech-stack-item tech-7">
+        <p class="tech-stack-item">
           <span>C & C++</span>
         </p>
-        <p class="tech-stack-item tech-7">
+        <p class="tech-stack-item">
           <span>Mongo DB</span>
         </p>
-        <p class="tech-stack-item sweep-to-top tech-10">
+        <p class="tech-stack-item">
           <span>Bash</span>
         </p>
       </div>
@@ -271,14 +300,14 @@ const Footer = () => {
 function App() {
   return (
     <div>
-      <Header />
-      <IntroPage />
-      <AboutPage />
-      <Technology />
-      <ProjectPage />
-      <BlogPage />
-      <ContactPage />
-      <Footer />
+        <Header />
+        <IntroPage />
+        <AboutPage />
+        <Technology />
+        <ProjectPage />
+        <BlogPage />
+        <ContactPage />
+        <Footer />
     </div>
   );
 }
