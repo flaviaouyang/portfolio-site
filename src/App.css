@@ -1,4 +1,7 @@
 /* font face */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 @font-face {
   font-family: "MonumentExtended Regular";
   src: url(../public/font/MonumentExtended-Regular.woff2) format("woff2"), url(../public/font/MonumentExtended-Regular.woff2) format("woff");
@@ -83,29 +86,12 @@ a {
   }
   .intro-container {
     height: 35vh !important;
-    font-size: 5.3vw !important;
+    /* font-size: 5.3vw !important; */
+    font-size: 7vw !important;
   }
   .tech-stack {
     margin-right: 20vw !important;
     margin-bottom: 10vh !important;
-  }
-  .tech-12:before {
-    font-size: 3vw !important;
-  }
-  .tech-11:before {
-    font-size: 2.5vw !important;
-  }
-  .tech-10:before {
-    font-size: 2.5vw !important;
-  }
-  .tech-4:before {
-    font-size: 2.3vw !important;
-  }
-  .tech-3:before {
-    font-size: 2.5vw !important;
-  }
-  .tech-1:before {
-    font-size: 2.5vw !important;
   }
   .nav-container {
     padding-right: 20px !important;
@@ -113,7 +99,7 @@ a {
 
   .tech-stack {
     grid-template-columns: repeat(2, 50%) !important;
-    grid-template-rows: repeat(5, 20%) !important;
+    grid-template-rows: repeat(6, auto) !important;
   }
 
   .tech-stack-item {
@@ -201,7 +187,7 @@ a {
 .about-container {
   display: flex;
   flex-direction: row;
-  height: 108vh;
+  height: 120vh;
 }
 
 .about-banner-container {
@@ -228,11 +214,9 @@ a {
   margin: 5vw;
   margin-right:15vw;
   flex-grow: 5;
-  align-self: center;
-  font-family: 'MonumentExtended Regular', Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #0B4619;
   font-size: 2.5vw;
-  text-transform: uppercase;
 }
 
 /* tech stack */
@@ -337,7 +321,7 @@ a {
 }
 
 .blog-content {
-  font-family: "Swiss", serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-size: 2.0833333333333335vw;
   margin: 1.3888888888888888vw;
 }
@@ -377,60 +361,6 @@ a {
   transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
-}
-
-.tech-1:before {
-  font-family: 'MonumentExtended Regular', Arial, sans-serif;
-  text-align: center;
-  padding: 5px;
-  font-size: 1.5vw;
-  color: rgb(243, 239, 182);
-  content: "Proficient with JS (ES6+), DOM, Event Handling, Object-Oriented Programming, JS data structures and various frameworks";
-}
-
-.tech-3:before {
-  font-family: 'MonumentExtended Regular', Arial, sans-serif;
-  text-align: center;
-  padding: 5px;
-  font-size: 1.3vw;
-  color: rgb(243, 239, 182);
-  content: "Currently exploring three.js to incorporate 2D and 3D animations into webpages. Proficient in object creation, transformation and animation.";
-}
-
-.tech-4:before {
-  font-family: 'MonumentExtended Regular', Arial, sans-serif;
-  text-align: center;
-  padding: 5px;
-  font-size: 1.3vw;
-  color: rgb(243, 239, 182);
-  content: "Proficient in Python 3. Familiar with Flask, Regex and Web Scraping. Have experience with various Python Libraries--pandas, matplotlib, numpy and others.";
-}
-
-.tech-10:before {
-  font-family: 'MonumentExtended Regular', Arial, sans-serif;
-  text-align: center;
-  padding: 5px;
-  font-size: 1.3vw;
-  color: rgb(243, 239, 182);
-  content: "Familiar with the bash environment. Can write basic shell scripts to manipulate files and automate tasks. Comfortable working in terminal.";
-}
-
-.tech-11:before {
-  font-family: 'MonumentExtended Regular', Arial, sans-serif;
-  text-align: center;
-  padding: 5px;
-  font-size: 1.3vw;
-  color: rgb(243, 239, 182);
-  content: "Working knowledge of Git and GitHub. Familiar with git basics, version control system on local machine, git branching, and working with remote repositories.";
-}
-
-.tech-12:before {
-  font-family: 'MonumentExtended Regular', Arial, sans-serif;
-  text-align: center;
-  padding: 5px;
-  font-size: 1.3vw;
-  color: rgb(243, 239, 182);
-  content: "Working knowledge of Figma. Have experience creating site map, wire frames, and prototypes on Figma. ";
 }
 
 .sweep-to-top:hover,
@@ -487,4 +417,22 @@ a {
 
 .copyright {
   margin-right: 1.7361111111111112vw;
+}
+
+/* text color */
+.title-word {
+  animation: color-animation 4s linear infinite;
+  --color-1: #0E3EDA;
+  --color-2: #F15152;
+  --color-3: #559CAD;
+}
+
+@keyframes color-animation {
+  0%    {color: var(--color-1)}
+  32%   {color: var(--color-1)}
+  33%   {color: var(--color-2)}
+  65%   {color: var(--color-2)}
+  66%   {color: var(--color-3)}
+  99%   {color: var(--color-3)}
+  100%  {color: var(--color-1)}
 }
