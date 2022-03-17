@@ -20,15 +20,6 @@ The repository is the source code of my personal portfolio website.<br>
 - Refactored Code for React
 - Added projects and minor changes in styles. (Ready to deploy)
 
-## PROGRESS
-
-- Stage 1 <br><br>
-![Demo 001](demo-1.gif)
-<br>
-
-- First Deployment <br><br>
-![first publication](portfolio-publish-1.gif)
-
 ## TYPOGRAPHY
 
 - Monument Extended<br>
@@ -61,6 +52,9 @@ The repository is the source code of my personal portfolio website.<br>
 - [x] add animated and interactive background
 - [x] change the layout of blog posts section
 - [x] responsive design for mobile users
+- [x] add typewriting animation
+- [x] rewrite about me section
+- [ ] add description effects to tech stack section
 
 
 
