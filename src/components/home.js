@@ -2,9 +2,9 @@ import Typical from "react-typical";
 
 const Home = () => {
   return (
-    <div class="intro-container">
+    <div className="intro-container">
       <p>Hello, I'm a</p>
-      <p class="intro-animation">
+      <p className="intro-animation">
         <Typical
           loop={3}
           wrapper="p"
@@ -23,7 +23,7 @@ const Home = () => {
         />
       </p>
       <p>
-        BASED IN <span class="title-word">MONTRÉAL</span>
+        BASED IN <span className="title-word">MONTRÉAL</span>
       </p>
       <p>CANADA</p>
     </div>
