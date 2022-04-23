@@ -1,6 +1,7 @@
 /* font face */
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
 @font-face {
   font-family: "MonumentExtended Regular";
@@ -27,250 +28,108 @@
   unicode-range: U + 000-5FF
 }
 
+/* styling */
 html {
   scroll-behavior: smooth;
 }
 
 * {
   margin: 0px;
+  box-sizing: border-box;
+}
+
+.screen {
+  height: 100vh;
 }
 
 /* background */
 body {
-  background:url("../public/img/background.png");
-  background-size: contain;
+  background: url("../public/img/background.png");
+  background-repeat: no-repeat;
 }
 
-/* all links */
-a {
-  color: #0B4619;
-  text-decoration: none;
-}
+/* responsive design */
+@media only screen and (max-width: 600px) {}
 
-.link:hover,
-#nav-link:hover {
-  text-decoration: underline dashed !important;
-  -webkit-text-decoration-line: underline !important;
-  -webkit-text-decoration-style: dashed !important;
-  cursor: pointer !important;
-}
-
-/* header */
-
-.header-container {
-  margin: 10px;
-  margin-bottom: 20px;
+/* navbar */
+.nav-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  font-family: 'MonumentExtended UltraBold', Arial, sans-serif;
-  font-size: 25px;
-  height: 17vh;
+  align-items: flex-start;
+  margin: 1.5vw;
 }
 
-@media only screen and (max-width: 600px) {
-  #logo {
-    font-size: 8px;
-  }
-  .header-container {
-    font-size: 8px;
-  }
-  .contact-container {
-    height: 35vh !important;
-  }
-  .about-container {
-    height: 40vh !important;
-  }
-  .footer-container {
-    height: 2vh !important;
-  }
-  .intro-container {
-    height: 35vh !important;
-    /* font-size: 5.3vw !important; */
-    font-size: 7vw !important;
-  }
-  .tech-stack {
-    margin-right: 20vw !important;
-    margin-bottom: 10vh !important;
-  }
-  .nav-container {
-    padding-right: 20px !important;
-  }
-
-  .tech-stack {
-    grid-template-columns: repeat(2, 50%) !important;
-    grid-template-rows: repeat(6, auto) !important;
-  }
-
-  .tech-stack-item {
-    font-size: 4vw !important;
-  }
-
-  .project-item {
-    display: flex !important;
-    flex-direction: column !important;
-    margin: 0px !important;
-    margin-right: 2vw !important;
-  }
-
-  .project-picture {
-    width: 70vw !important;
-    height: 40vw !important;
-  }
-
-  .project-description {
-    font-size: 6vw !important;
-    margin-left: 15vw !important;
-    margin-right: 15vw !important;
-    text-align: center !important;
-  }
-
-  .blog-item-container {
-    display: flex !important;
-    flex-direction: column !important;
-  }
-  
-  .blog-item {
-    margin: 7vw !important;
-    background: rgba(255, 255, 255, 0.9) !important;
-    border-radius: 5vw !important;
-  }
-
-  .blog-title {
-    font-size: 7vw !important;
-    border-bottom: 1vw solid black !important;
-  }
-
-  .blog-content {
-    font-size: 5vw !important;
-    text-align: center !important;
-  }
+.logo-text {
+  font-family: 'Staatliches', cursive;
+  color: #0B4619;
+  font-size: 3em;
 }
 
-
-#logo {
-  font-family: "Swiss", serif;
-}
-
-.nav-parent {
-  position: fixed;
-  width: 100%;
-  top: 5;
-  z-index: 1;
-}
-
-.nav-container {
+.nav-link-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  font-family: "Swiss", serif;
-  float: right;
-  padding-right: 25px;
 }
 
-/* intro statement on home page */
+.nav-link-container a {
+  text-decoration: none;
+  color: #0B4619;
+  font-family: 'MonumentExtended', Arial, sans-serif;
+  font-size: 1.5em;
+}
+
+.nav-link-container a:hover {
+  text-decoration: underline dashed;
+}
+
+.logo-links {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Staatliches', cursive;
+  font-size: 2em;
+}
+
+.logo-links a {
+  text-decoration: none;
+  color: black;
+}
+
+.logo-links a:hover {
+  color: #0B4619;
+  transform: scale(1.05);
+}
+
+/* Home page */
 .intro-container {
-  height: 83.6vh;
-  margin-left: 3vw;
-  margin-right: 25vw;
+  height: 75vh;
+  margin-left: 1.5vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   font-family: 'MonumentExtended UltraBold', Arial, sans-serif;
   color: #0B4619;
   font-weight: 800;
-  font-size: 5vw;
+  font-size: 5rem;
   line-height: 1.1em;
 }
 
-/* ABOUT PAGE */
-.about-container {
-  display: flex;
-  flex-direction: row;
-  height: 120vh;
-}
-
-.about-banner-container {
-  margin-left: 10px;
-  display: flex;
-  flex-grow: 1;
-  justify-content: flex-start;
-  align-items: center;
-  border-right: 0.69vw solid #0B4619;
-}
-
-.about-banner-text {
-  writing-mode: vertical-lr;
-  transform: rotate(180deg);
-  font-family: 'MonumentExtended UltraBold', Arial, sans-serif;
+/* About me */
+.about-text {
+  font-family: 'Staatliches', cursive;
+  font-size: 2.5rem;
+  margin: 5vw 10vw 5vw 10vw;
   color: #0B4619;
-  font-weight: 800;
-  font-size: 10vw;
-  line-height: 7.63vw;
-  text-align: center;
 }
 
-.about-me {
-  margin: 5vw;
-  margin-right:15vw;
-  flex-grow: 5;
-  font-family: 'Roboto', sans-serif;
-  color: #0B4619;
-  font-size: 2.5vw;
+.about-text a {
+  text-decoration: none;
+  color: darkblue;
 }
 
 /* tech stack */
-.tech-stack {
-  display: grid;
-  grid-template-columns: repeat(3, 33%);
-  grid-template-rows: repeat(4, 25%);
-  grid-gap: 1vw;
-  margin: 3vw;
-  margin-left: 14vw;
-  margin-right: 15.5vw;
-  height: 130vh;
-  margin-bottom: 30vh;
-}
 
-.tech-stack-item {
-  text-align: center;
-  font-family: 'MonumentExtended UltraBold', Arial, sans-serif;
-  color: #0B4619;
-  padding: 5vw;
-  margin: 0.347vw;
-  font-size: 2.5vw;
-  border: 0.28vw solid black;
-  opacity: 0.8;
-}
 
-.project-container {
-  display: flex;
-  flex-direction: column;
-  margin-top: 6.25vw !important;
-}
-
-.project-banner-container {
-  margin: 15px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-content: center;
-  font-family: 'MonumentExtended UltraBold', Arial, sans-serif;
-  color: #0B4619;
-  font-weight: 800;
-  font-size: 10vw;
-  line-height: 7.64vw;
-  border-bottom: 0.69vw solid #0B4619;
-}
-
-.project-banner-text-1 {
-  align-self: flex-start;
-}
-
-.project-banner-text-2 {
-  align-self: flex-end;
-}
-
+/* projects */
 .project-item {
   display: flex;
   align-items: center;
@@ -398,6 +257,9 @@ a {
 }
 
 .footer-container {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   background: #0B4619;
   height: 6.97084917617237vh;
   border: 1px solid black;
@@ -428,11 +290,31 @@ a {
 }
 
 @keyframes color-animation {
-  0%    {color: var(--color-1)}
-  32%   {color: var(--color-1)}
-  33%   {color: var(--color-2)}
-  65%   {color: var(--color-2)}
-  66%   {color: var(--color-3)}
-  99%   {color: var(--color-3)}
-  100%  {color: var(--color-1)}
+  0% {
+    color: var(--color-1)
+  }
+
+  32% {
+    color: var(--color-1)
+  }
+
+  33% {
+    color: var(--color-2)
+  }
+
+  65% {
+    color: var(--color-2)
+  }
+
+  66% {
+    color: var(--color-3)
+  }
+
+  99% {
+    color: var(--color-3)
+  }
+
+  100% {
+    color: var(--color-1)
+  }
 }
