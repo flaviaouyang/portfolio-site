@@ -5,6 +5,7 @@ import etch from "./etch-a-sketch.png";
 import toDo from "./to-do.png";
 import wordle from "./wordle.png";
 import sf from "./sf.png";
+import ta from "./ta-management.png";
 
 // navigation bar
 const Header = () => {
@@ -169,32 +170,39 @@ const ProjectPage = () => {
         <p class="project-banner-text-2">WORKS &nbsp;&nbsp;</p>
       </div>
       <ProjectItem
+        link="https://front-end-28x.pages.dev/"
+        img_src={ta}
+        alt="McGill TA Management System"
+        text_link="https://github.com/COMP307-final-project-W2022"
+        description="Responsive Full Stack Application for McGill users +"
+      />
+      <ProjectItem
         link="https://github.com/flaviaouyang/Sages-Femmes-du-Quebec-Database"
         img_src={sf}
         alt="Database Application"
         text_link="https://github.com/flaviaouyang/Sages-Femmes-du-Quebec-Database"
-        description="A Database Application for Midwife program in Quebec +"
+        description="Database Application for Midwife program in Quebec +"
       />
       <ProjectItem
         link="https://github.com/flaviaouyang/python-CLI-wordle"
         img_src={wordle}
         alt="CLI Wordle Game"
         text_link="https://github.com/flaviaouyang/python-CLI-wordle"
-        description="A CLI Wordle Game written in pure Python +"
+        description="CLI Wordle Clone written in pure Python +"
       />
       <ProjectItem
         link="https://flaviaouyang.github.io/etch-a-sketch/"
         img_src={etch}
         alt="UI of etch-a-sketch project"
         text_link="https://github.com/flaviaouyang/etch-a-sketch"
-        description="An web application built with vanilla JavaScript +"
+        description="built with vanilla JavaScript +"
       />
       <ProjectItem
         link="https://github.com/flaviaouyang/brutally-minimalistic-to-do"
         img_src={toDo}
         alt="UI of to do list"
         text_link="https://github.com/flaviaouyang/brutally-minimalistic-to-do"
-        description="A to-do web application built using Flask and Jinja +"
+        description="Hour Project for learning Flask and Jinja +"
       />
     </div>
   );
