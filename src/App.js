@@ -1,11 +1,14 @@
 import React from "react";
 import Typical from "react-typical";
+import { Routes, Route, Link } from "react-router-dom";
 import "./App.css";
-import etch from "./etch-a-sketch.png";
-import toDo from "./to-do.png";
-import wordle from "./wordle.png";
-import sf from "./sf.png";
-import ta from "./ta-management.png";
+
+// import project images
+import etch from "./asset/etch-a-sketch.png";
+import toDo from "./asset/to-do.png";
+import wordle from "./asset/wordle.png";
+import sf from "./asset/sf.png";
+import ta from "./asset/ta-management.png";
 
 // navigation bar
 const Header = () => {
@@ -17,24 +20,12 @@ const Header = () => {
         </a>
         <div class="nav-parent">
           <nav class="nav-container">
-            <a id="nav-link" href="#home">
-              HOME
-            </a>
-            <a id="nav-link" href="#about">
-              ABOUT
-            </a>
-            <a id="nav-link" href="#tech-stack">
-              TECH
-            </a>
-            <a id="nav-link" href="#project">
-              PROJECT
-            </a>
-            <a id="nav-link" href="#blog">
-              WRITINGS
-            </a>
-            <a id="nav-link" href="#contact">
-              CONTACT
-            </a>
+            <Link to="/">HOME</Link>
+            <Link to="/about">ABOUT</Link>
+            <Link to="/tech">TECH</Link>
+            <Link to="/project">PROJECT</Link>
+            <Link to="/writing">WRITINGS</Link>
+            <Link to="/contact">CONTACT</Link>
           </nav>
         </div>
       </div>
@@ -83,20 +74,22 @@ const AboutPage = () => {
         </p>
       </div>
       <div class="about-me">
-        &emsp;I am a senior computer science student studying at McGill University. 
-        I enjoy designing and developing webpages and web applications to create a dynamic user experience. 
-        With a passion for UI effects and animation,
-        I am always learning new technologies. 
-        At the moment, I am spending some time with three.js and gsap.
+        &emsp;I am a senior computer science student studying at McGill
+        University. I enjoy designing and developing webpages and web
+        applications to create a dynamic user experience. With a passion for UI
+        effects and animation, I am always learning new technologies. At the
+        moment, I am spending some time with three.js and gsap.
         <br />
         <br />
-        &emsp;More on the personal side, I'm motivated, self-disciplined and organized.
-        And I always like a good challenge. I currently reside in Montreal, but I'm open to relocating anywhere within Canada.
-        When I'm not working or coding, I enjoy French cinema, 20th century American literature,
-        and going on long, aimless walks around the city.
+        &emsp;More on the personal side, I'm motivated, self-disciplined and
+        organized. And I always like a good challenge. I currently reside in
+        Montreal, but I'm open to relocating anywhere within Canada. When I'm
+        not working or coding, I enjoy French cinema, 20th century American
+        literature, and going on long, aimless walks around the city.
         <br />
         <br />
-        &emsp;If you want to know more about me, you can keep scrolling to find out what technologies I know, my projects, and some of my writings.
+        &emsp;If you want to know more about me, you can keep scrolling to find
+        out what technologies I know, my projects, and some of my writings.
       </div>
     </div>
   );
@@ -308,14 +301,16 @@ const Footer = () => {
 function App() {
   return (
     <div>
-        <Header />
-        <IntroPage />
-        <AboutPage />
-        <Technology />
-        <ProjectPage />
-        <BlogPage />
-        <ContactPage />
-        <Footer />
+      <Header />
+      <Routes>
+        <Route index element={<IntroPage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/tech" element={<Technology />} />
+        <Route path="/project" element={<ProjectPage />} />
+        <Route path="/writing" element={<BlogPage />} />
+        <Route path="/contact" element={<ContactPage />} />
+      </Routes>
+      <Footer />
     </div>
   );
 }
