@@ -1,17 +1,13 @@
 const Contact = () => {
   return (
-    <div class="project-container contact-container" id="contact">
-      <div class="project-banner-container">
-        <p class="project-banner-text-1">SAY HI</p>
-        <p class="project-banner-text-2">WHY NOT&nbsp;&nbsp;&nbsp;</p>
-      </div>
-      <div class="link-container">
-        <a href="mailto:flavia.ouyang@mail.mcgill.ca" class="link">
+    <div className="project-container contact-container" id="contact">
+      <div className="link-container">
+        <a href="mailto:flavia.ouyang@mail.mcgill.ca" className="link">
           email
         </a>
         <a
           href="https://twitter.com/FlaviaOuyang"
-          class="link"
+          className="link"
           target="_blank"
           rel="noreferrer"
         >
@@ -19,7 +15,7 @@ const Contact = () => {
         </a>
         <a
           href="https://github.com/flaviaouyang"
-          class="link"
+          className="link"
           target="_blank"
           rel="noreferrer"
         >
@@ -27,7 +23,7 @@ const Contact = () => {
         </a>
         <a
           href="https://www.linkedin.com/in/flavia-ouyang/"
-          class="link"
+          className="link"
           target="_blank"
           rel="noreferrer"
         >

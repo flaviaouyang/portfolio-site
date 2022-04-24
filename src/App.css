@@ -188,10 +188,6 @@ html {
   box-sizing: border-box;
 }
 
-.screen {
-  height: 100vh;
-}
-
 /* background */
 body {
   background: url("../public/img/background.png");

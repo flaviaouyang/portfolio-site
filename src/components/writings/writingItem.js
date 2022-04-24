@@ -2,9 +2,9 @@ const WritingItem = (props) => {
   return (
     <div>
       <a href={props.link} target="_blank" rel="noreferrer">
-        <div class="blog-item sweep-to-top">
-          <p class="blog-title">{props.header}</p>
-          <p class="blog-content">{props.text}</p>
+        <div className="blog-item sweep-to-top">
+          <p className="blog-title">{props.header}</p>
+          <p className="blog-content">{props.text}</p>
         </div>
       </a>
     </div>

@@ -2,12 +2,8 @@ import WritingItem from "./writingItem";
 
 const Writing = () => {
   return (
-    <div class="project-container blog-container" id="blog">
-      <div class="project-banner-container">
-        <p class="project-banner-text-1">MY</p>
-        <p class="project-banner-text-2">WRITINGS&nbsp;&nbsp;&nbsp;</p>
-      </div>
-      <div class="blog-item-container">
+    <div className="project-container blog-container">
+      <div className="blog-item-container">
         <WritingItem
           link="https://flaviaouyang.github.io/three.js-journey/"
           header="A three.js journey: an orange cube"
