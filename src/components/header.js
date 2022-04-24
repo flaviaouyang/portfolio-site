@@ -18,6 +18,46 @@ const LogoLinks = () => {
   );
 };
 
+const Navigation = () => {
+  return (
+    <div className="nav-link-container">
+      <Link to="/">HOME</Link>
+      <Link to="/about">ABOUT</Link>
+      <Link to="/project">WORK</Link>
+      <Link to="/writing">WRITINGS</Link>
+      <Link to="/contact">CONTACT</Link>
+    </div>
+  );
+};
+
+const Back = (props) => {
+  const first = props.first;
+  const last = props.last;
+  if (!first && !last) {
+    return (
+      <div className="nav-link-container">
+        <Link to="/">HOME</Link>
+        <Link to={props.backLink}>GO BACK</Link>
+        <Link to={props.nextLink}>NEXT</Link>
+      </div>
+    );
+  } else if (first) {
+    return (
+      <div className="nav-link-container">
+        <Link to="/">HOME</Link>
+        <Link to={props.nextLink}>NEXT</Link>
+      </div>
+    );
+  } else if (last) {
+    return (
+      <div className="nav-link-container">
+        <Link to="/">HOME</Link>
+        <Link to={props.backLink}>GO BACK</Link>
+      </div>
+    );
+  }
+};
+
 const Header = () => {
   return (
     <div className="nav-container">
@@ -31,13 +71,25 @@ const Header = () => {
         />
         <Route path="contact" element={<LogoText text="SAY HI! WHY NOT?" />} />
       </Routes>
-      <div className="nav-link-container">
-        <Link to="/">HOME</Link>
-        <Link to="/about">ABOUT</Link>
-        <Link to="/project">WORK</Link>
-        <Link to="/writing">WRITINGS</Link>
-        <Link to="/contact">CONTACT</Link>
-      </div>
+      <Routes>
+        <Route index element={<Navigation />} />
+        <Route
+          path="about/*"
+          element={<Back first={true} last={false} nextLink="/project" />}
+        />
+        <Route
+          path="project/*"
+          element={<Back first={false} last={false} backLink="/about" nextLink="/writing" />}
+        />
+        <Route
+          path="writing/*"
+          element={<Back first={false} last={false} backLink="/project" nextLink="/contact" />}
+        />
+        <Route
+          path="contact"
+          element={<Back first={false} last={true} backLink="/writing" />}
+        />
+      </Routes>
     </div>
   );
 };
