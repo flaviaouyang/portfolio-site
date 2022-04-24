@@ -1,8 +1,8 @@
 const Hobby = () => {
   return (
     <div className="about-text">
-      &emsp;When I'm not working, I enjoy French cinema, 20th century
-      American literature, and going on long, aimless walks around the city.
+      &emsp;When I'm not working, I enjoy <span className="red-text">French cinema</span>, <span className="red-text">20th century
+      American literature</span>, and <span className="red-text">going on long, aimless walks</span> around the city.
       <br />
       &emsp;Here are some movies and books that I recommend:
       <ul>
@@ -11,6 +11,7 @@ const Hobby = () => {
           <li><a href="https://www.newyorker.com/magazine/1992/07/20/the-hammer-and-the-nail">Native son</a>, by Richard Wright</li>
           <li><a href="https://www.newyorker.com/books/page-turner/the-greatest-american-novel-youve-never-heard-of">Stoner</a>, by John Edward Williams</li>
           <li>The Rabbit Series, by John Updike</li>
+          <li>Almost all poems by Charles Bukowski (I know, i know...)</li>
 
       </ul>
     </div>

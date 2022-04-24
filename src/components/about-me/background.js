@@ -6,12 +6,12 @@ const Background = () => {
       academics, I was VP Marketing at Trek for Teens, a Tutor for CSUS
       helpdesk, and a dedicated Mentor under Youth Outreach Program.
       <br />
-      &emsp; When it comes to coding, I enjoy designing and developing web
-      applications to create a dynamic user experience. With a passion for UI
+      &emsp; When it comes to coding, I <span className="red-text">enjoy designing and developing web
+      applications</span> to create a dynamic user experience. With a passion for UI
       effects and animation, I am always exploring technologies like three.js,
       WebGL, and GSAP.
       <br />
-      &emsp;Currently, I'm residing in Montreal. But I'm open for relocation.
+      &emsp;Currently, I'm residing in Montreal. But I'm <span className="red-text">open for relocation</span>.
     </div>
   );
 };
