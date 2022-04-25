@@ -1,42 +1,60 @@
 import ProjectItem from "./projectItem";
 
 // import project images
-import etch from "../../asset/etch-a-sketch.png";
-import toDo from "../../asset/to-do.png";
-import wordle from "../../asset/wordle.png";
-import sf from "../../asset/sf.png";
-import ta from "../../asset/ta-management.png";
+import McGill from "../../asset/mcgill.png";
+import Database from "../../asset/sage-femme.png";
+import Wordle from "../../asset/wordle.png";
+import BlackJack from "../../asset/blackjack.png";
+import Etch from "../../asset/etch-a-sketch.png";
+
 
 const Project = () => {
   return (
     <div className="project-container">
       <ProjectItem
         link="https://front-end-28x.pages.dev/"
-        img_src={ta}
+        img_class="demo"
+        img_src={McGill}
         alt="McGill TA Management System"
-        text_link="https://github.com/COMP307-final-project-W2022"
-        description="Responsive Full Stack Application for McGill users +"
+        tech="React, Node, Express, SQL"
+        text_link="#"
+        description="McGill TA Management System &#8599;"
       />
       <ProjectItem
         link="https://github.com/flaviaouyang/Sages-Femmes-du-Quebec-Database"
-        img_src={sf}
+        img_class="github"
+        img_src={Database}
         alt="Database Application"
-        text_link="https://github.com/flaviaouyang/Sages-Femmes-du-Quebec-Database"
-        description="Database Application for Midwife program in Quebec +"
+        text_link="#"
+        description="Midwife Database System &#8599;"
+        tech="IBM-DB2, Java"
       />
       <ProjectItem
         link="https://github.com/flaviaouyang/python-CLI-wordle"
-        img_src={wordle}
+        img_class="github"
+        img_src={Wordle}
         alt="CLI Wordle Game"
-        text_link="https://github.com/flaviaouyang/python-CLI-wordle"
-        description="CLI Wordle Clone written in pure Python +"
+        text_link="#"
+        description="Terminal Wordle CLone &#8599;"
+        tech="Python"
+      />
+      <ProjectItem
+        link="https://github.com/flaviaouyang/blackjack-cpp"
+        img_class="github"
+        img_src={BlackJack}
+        alt="Black Jack Cards"
+        text_link="#"
+        description="C++ BlackJack Game &#8599;"
+        tech="C++"
       />
       <ProjectItem
         link="https://flaviaouyang.github.io/etch-a-sketch/"
-        img_src={etch}
+        img_class="demo"
+        img_src={Etch}
         alt="UI of etch-a-sketch project"
-        text_link="https://github.com/flaviaouyang/etch-a-sketch"
-        description="built with vanilla JavaScript +"
+        text_link="#"
+        description="Etch-a-sketch &#8599;"
+        tech="JavaScript, HTML, CSS"
       />
     </div>
   );
