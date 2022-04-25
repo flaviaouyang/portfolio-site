@@ -2,7 +2,7 @@ const Background = () => {
   return (
     <div className="about-text">
       &emsp;I graduated with a degree in computer science from{" "}
-      <a href="https://www.mcgill.ca/">McGill University</a> in 2022. Beyond
+      <a href="https://www.mcgill.ca/">McGill University&#8599;</a> in 2022. Beyond
       academics, I was VP Marketing at Trek for Teens, a Tutor for CSUS
       helpdesk, and a dedicated Mentor under Youth Outreach Program.
       <br />
