@@ -188,7 +188,7 @@ const Technology = () => {
             that I know (or am learning): three.js, GSAP, and WebGL, PHP, Bash,
             Git & GitHub, Bootstrap & Tailwind, Docker, Figma & Adobe XD. I
             usually work with MacOS. My editor of choice is Visual Studio Code.
-            For IDEs, I have worked with IntelliJ, PHPStorm, PyCharm and CLion.
+            For IDEs, I have worked with IntelliJ, Eclipse, PHPStorm, PyCharm and CLion.
           </Typography>
         </AccordionDetails>
       </Accordion>
