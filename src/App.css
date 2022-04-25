@@ -282,9 +282,10 @@ body {
   padding: 5vh 0 15vh 0;
 }
 
-.accordion-title{
+.accordion-title {
   font-family: 'Staatliches', cursive !important;
   font-size: 2em !important;
+  color: #0B4619;
 }
 
 .expanded-icon {
@@ -314,32 +315,58 @@ body {
 }
 
 /* projects */
-.project-item {
+.project-container {
+  padding: 10vh 0 10vh 0;
+  margin-right: 11vw;
+}
+
+.project-item-container {
   display: flex;
+  justify-content: center;
   align-items: center;
-  margin-right: 20vw;
+  padding:10vh 0 30vh 0;
+}
+
+.project-item-container a {
+  text-decoration: underline;
+  color: black;
+}
+
+.project-tech {
+  text-align: right;
+  font-family: 'Staatliches', cursive;
+  font-size: 1.7em;
+  color: #4f5b66;
+}
+
+.project-text:hover {
+  text-decoration: underline;
+  cursor: url("./asset/cursor.png"), pointer;
+}
+
+.demo:hover {
+  cursor: url("./asset/demo-cursor.png"), pointer;
+}
+
+.github:hover {
+  cursor: url("./asset/github-cursor.png"), pointer;
 }
 
 .project-picture {
-  width: 53.125vw;
-  height: 29.51388888888889vw;
-  margin: 3.4722222222222223vw;
-  transition: all .2s ease-in-out;
-  border: 0.347vw solid black;
-}
-
-.project-picture:hover {
-  transform: scale(1.1);
+  margin-left: 3vw;
+  width: 49vw;
+  border: 2px solid black;
 }
 
 .project-description {
   font-family: 'MonumentExtended UltraBold', Arial, sans-serif;
-  font-size: 3vw;
+  font-size: 3.5em;
   color: black;
-  margin: 3.4722222222222223vw;
-  text-align: center;
+  text-align: right;
+  text-transform: uppercase;
 }
 
+/* writings */
 .blog-item-container {
   display: grid;
   grid-template-columns: repeat(2, 50%);
@@ -367,60 +394,6 @@ body {
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 2.0833333333333335vw;
   margin: 1.3888888888888888vw;
-}
-
-/* Sweep To Top */
-.sweep-to-top {
-  color: black;
-  opacity: 1;
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  position: relative;
-  -webkit-transition-property: color;
-  transition-property: color;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-}
-
-.sweep-to-top:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: black;
-  -webkit-transform: scaleY(0);
-  transform: scaleY(0);
-  -webkit-transform-origin: 50% 100%;
-  transform-origin: 50% 100%;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
-}
-
-.sweep-to-top:hover,
-.sweep-to-top:focus,
-.sweep-to-top:active {
-  color: white;
-}
-
-.sweep-to-top:hover span {
-  display: none;
-}
-
-.sweep-to-top:hover:before,
-.sweep-to-top:focus:before,
-.sweep-to-top:active:before {
-  -webkit-transform: scaleY(1);
-  transform: scaleY(1);
 }
 
 .contact-container {
