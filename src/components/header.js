@@ -11,9 +11,9 @@ const LogoText = (props) => {
 const LogoLinks = () => {
   return (
     <div className="logo-links">
-      <Link to=".">I. My background and experience&#8599;</Link>
-      <Link to="technology">II. WHAT TECHNOLOGY DO I KNOW?&#8594;</Link>
-      <Link to="hobby">III. Some other things that i enjoy&#8600;</Link>
+      <Link to=".">I. My background and experience</Link>
+      <Link to="technology">II. WHAT TECHNOLOGY DO I KNOW?</Link>
+      <Link to="hobby">III. Some other things that i enjoy</Link>
     </div>
   );
 };
