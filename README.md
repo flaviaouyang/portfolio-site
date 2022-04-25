@@ -14,7 +14,7 @@ The repository is the source code of my personal portfolio website.<br>
 
 ## WORK FLOW
 
-- Designed wireframe, sitemap, and UI using Figma
+- Designed wireframes, sitemap, and UI using Figma
 - Constructed basic layout of the site with HTML
 - Added basic style to site using CSS
 - Refactored Code for React
@@ -37,7 +37,7 @@ The repository is the source code of my personal portfolio website.<br>
 - install dependencies: `npm install`
 - run using npm: `npm start`
 - a webpage should automatically open
-  - if not, visit: http://localhost:3000
+  - if not, please visit [this link](http://localhost:3000)
 
 ## ISSUE
 
@@ -54,9 +54,12 @@ The repository is the source code of my personal portfolio website.<br>
 - [x] responsive design for mobile users
 - [x] add typewriting animation
 - [x] rewrite about me section
-- [ ] add description effects to tech stack section
-
-
-
-
-
+- [x] add description effects to tech stack section
+- [ ] reformat entire site
+- [ ] add transition animations
+- [ ] change hover animation
+- [ ] add project case study pages
+- [ ] refactor writings
+- [ ] add blog section to writings
+- [ ] refactor contact section
+- [ ] add contact to end of projects
