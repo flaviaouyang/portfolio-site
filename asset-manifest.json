@@ -1,22 +1,29 @@
 {
   "files": {
-    "main.css": "/portfolio-site/static/css/main.2cdc263f.css",
-    "main.js": "/portfolio-site/static/js/main.239e00c6.js",
-    "static/media/sf.png": "/portfolio-site/static/media/sf.0d459c19f37cd1a36b3c.png",
-    "static/media/ta-management.png": "/portfolio-site/static/media/ta-management.b25619f3db965286e155.png",
+    "main.css": "/portfolio-site/static/css/main.cd528730.css",
+    "main.js": "/portfolio-site/static/js/main.15e36fe5.js",
+    "static/media/to-do.jpg": "/portfolio-site/static/media/to-do.67ded70eee23a954ceef.jpg",
+    "static/media/mcgill.png": "/portfolio-site/static/media/mcgill.c49cbd06223c42ba6a5d.png",
+    "static/media/sage-femme.png": "/portfolio-site/static/media/sage-femme.1741553df3c74ba67e8d.png",
+    "static/media/database.gif": "/portfolio-site/static/media/database.3e75616450370df9817c.gif",
+    "static/media/etch.gif": "/portfolio-site/static/media/etch.ed087401e105f0edcd2a.gif",
+    "static/media/mcgill.gif": "/portfolio-site/static/media/mcgill.7d4821b68af834c11dc9.gif",
+    "static/media/blackjack.gif": "/portfolio-site/static/media/blackjack.177ab8701ec35e9f4750.gif",
+    "static/media/blackjack.png": "/portfolio-site/static/media/blackjack.5608be59804d2fa4d378.png",
     "static/media/etch-a-sketch.png": "/portfolio-site/static/media/etch-a-sketch.69762efac879615175c7.png",
-    "static/media/wordle.png": "/portfolio-site/static/media/wordle.2b0c75b566a99158d805.png",
-    "static/media/to-do.png": "/portfolio-site/static/media/to-do.6052adc2ff52b83ff3fc.png",
     "static/media/background.png": "/portfolio-site/static/media/background.482fe9e10867a0b228f5.png",
+    "static/media/wordle.gif": "/portfolio-site/static/media/wordle.74597d3a70df30203b8c.gif",
+    "static/media/todo.gif": "/portfolio-site/static/media/todo.f0954996871feef08744.gif",
+    "static/media/wordle.png": "/portfolio-site/static/media/wordle.6e9f37753c2d633e414c.png",
     "static/media/MonumentExtended-Regular.woff2": "/portfolio-site/static/media/MonumentExtended-Regular.bb4d7a40d67c9f44e693.woff2",
     "static/media/Swiss-721-BT-Regular.woff2": "/portfolio-site/static/media/Swiss-721-BT-Regular.4112b9b5035a23390c1c.woff2",
     "static/media/MonumentExtended-UltraBold.woff2": "/portfolio-site/static/media/MonumentExtended-UltraBold.3619fb45af037f580703.woff2",
     "index.html": "/portfolio-site/index.html",
-    "main.2cdc263f.css.map": "/portfolio-site/static/css/main.2cdc263f.css.map",
-    "main.239e00c6.js.map": "/portfolio-site/static/js/main.239e00c6.js.map"
+    "main.cd528730.css.map": "/portfolio-site/static/css/main.cd528730.css.map",
+    "main.15e36fe5.js.map": "/portfolio-site/static/js/main.15e36fe5.js.map"
   },
   "entrypoints": [
-    "static/css/main.2cdc263f.css",
-    "static/js/main.239e00c6.js"
+    "static/css/main.cd528730.css",
+    "static/js/main.15e36fe5.js"
   ]
 }
