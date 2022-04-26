@@ -11,7 +11,7 @@ import Background from "./components/about-me/background";
 import Hobby from "./components/about-me/hobby";
 import Project from "./components/project/project";
 import CaseStudy from "./components/project/caseStudy";
-import Writing from "./components/writings/writing";
+import Writing from "./components/writing";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
 

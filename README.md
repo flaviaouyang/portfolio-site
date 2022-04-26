@@ -58,7 +58,7 @@ The repository is the source code of my personal portfolio website.<br>
 - [ ] reformat entire site
 - [ ] add transition animations
 - [ ] change hover animation
-- [ ] add project case study pages
+- [x] add project case study pages
 - [ ] refactor writings
 - [ ] add blog section to writings
 - [ ] refactor contact section
