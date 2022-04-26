@@ -65,6 +65,8 @@ const Header = () => {
         <Route index element={<LogoText text="FLAVIA Y. OUYANG" />} />
         <Route path="about/*" element={<LogoLinks />} />
         <Route path="project" element={<LogoText text="SELECTED WORKS" />} />
+        {/* case studies */}
+        <Route path="project/*" element={<LogoText text="Case Study" />} />
         <Route
           path="writing"
           element={<LogoText text="SOME OF MY WRITINGS" />}
@@ -78,11 +80,15 @@ const Header = () => {
           element={<Back first={true} last={false} nextLink="/project" />}
         />
         <Route
-          path="project/*"
+          path="project"
           element={<Back first={false} last={false} backLink="/about" nextLink="/writing" />}
         />
         <Route
-          path="writing/*"
+          path="project/*"
+          element={<Back first={false} last={true} backLink="/project" nextLink="/writing" />}
+        />
+        <Route
+          path="writing"
           element={<Back first={false} last={false} backLink="/project" nextLink="/contact" />}
         />
         <Route

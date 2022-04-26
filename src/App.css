@@ -324,7 +324,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding:10vh 0 30vh 0;
+  padding: 10vh 0 30vh 0;
 }
 
 .project-item-container a {
@@ -364,6 +364,52 @@ body {
   color: black;
   text-align: right;
   text-transform: uppercase;
+}
+
+/* case study */
+.case-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10vh 0 10vh 0;
+}
+
+.case-text-container {
+  width: 50%;
+  padding: 2vw;
+  padding-top: 10vh;
+}
+
+.case-text-container h1 {
+  font-family: 'Staatliches', cursive;
+  font-weight: 100;
+  font-size: 2em;
+  text-align: center;
+}
+
+.case-info-container {
+  padding: 2vw;
+  padding-top: 5vh;
+}
+
+.case-info-container p {
+  font-family: "Swiss", serif;
+  text-decoration: uppercase;
+  font-size: 1.5em;
+  padding: 3vh 0 3vh 0;
+  border-top: 3px solid #0B4619;
+  color: #0B4619;
+}
+
+.case-img {
+  width: 40vw;
+}
+
+.bold {
+  font-family: 'Staatliches', cursive !important;
+  font-size: 2em !important;
+  border-top: none !important;
 }
 
 /* writings */
