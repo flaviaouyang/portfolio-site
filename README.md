@@ -55,11 +55,11 @@ The repository is the source code of my personal portfolio website.<br>
 - [x] add typewriting animation
 - [x] rewrite about me section
 - [x] add description effects to tech stack section
-- [ ] reformat entire site
+- [x] reformat entire site
 - [ ] add transition animations
 - [ ] change hover animation
 - [x] add project case study pages
-- [ ] refactor writings
+- [x] refactor writings
 - [ ] add blog section to writings
-- [ ] refactor contact section
+- [x] refactor contact section
 - [ ] add contact to end of projects
