@@ -197,6 +197,33 @@ body {
 /* responsive design */
 @media only screen and (max-width: 600px) {}
 
+/* loading screen */
+.loading {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.loading img {
+  margin-left: 15vw;
+  margin-top: 25vh;
+}
+
+.loading-text {
+  margin-left: 3vw;
+  margin-top: 10vh;
+}
+
+.loading p {
+  font-family: 'Staatliches', cursive;
+  color: #0B4619;
+  font-size: 3rem;
+  line-height: 1.1em;
+  flex-grow: 1;
+  padding-right: 15vw;
+}
+
 /* navbar */
 .nav-container {
   display: flex;
@@ -442,7 +469,7 @@ body {
   text-decoration: underline dashed;
 }
 
-.link{
+.link {
   text-align: center;
   color: #0B4619;
   font-family: 'Staatliches', cursive;
