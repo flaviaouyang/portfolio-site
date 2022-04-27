@@ -206,8 +206,8 @@ body {
 }
 
 .loading img {
-  margin-left: 15vw;
   margin-top: 25vh;
+  kargin-left: 5vw;
 }
 
 .loading-text {

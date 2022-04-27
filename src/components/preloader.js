@@ -1,7 +1,6 @@
-import { Player } from "@lottiefiles/react-lottie-player";
 import Typical from "react-typical";
 
-import Cube from "../asset/loading/cube.json";
+import Cube from "../asset/cube.gif";
 
 const Loading = () => {
   return (
@@ -20,12 +19,7 @@ const Loading = () => {
           ]}
         />
       </div>
-      <Player
-        autoplay={true}
-        loop={true}
-        src={Cube}
-        style={{ height: "auto", width: "50vw" }}
-      ></Player>
+      <img src={Cube} alt="animated cube" />
     </div>
   );
 };
