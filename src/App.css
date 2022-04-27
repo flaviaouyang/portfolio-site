@@ -339,6 +339,17 @@ body {
   color: #4f5b66;
 }
 
+.project-description {
+  text-align: right;
+}
+
+.project-text {
+  font-family: 'MonumentExtended UltraBold', Arial, sans-serif;
+  font-size: 3.5em;
+  color: black;
+  text-transform: uppercase;
+}
+
 .project-text:hover {
   text-decoration: underline;
   cursor: url("./asset/cursor.png"), pointer;
@@ -356,14 +367,6 @@ body {
   margin-left: 3vw;
   width: 49vw;
   border: 2px solid black;
-}
-
-.project-description {
-  font-family: 'MonumentExtended UltraBold', Arial, sans-serif;
-  font-size: 3.5em;
-  color: black;
-  text-align: right;
-  text-transform: uppercase;
 }
 
 /* case study */

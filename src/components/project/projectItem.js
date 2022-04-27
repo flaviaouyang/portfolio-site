@@ -3,9 +3,11 @@ import { Link } from "react-router-dom";
 const ProjectItem = (props) => (
   <div className="project-item-container">
     <div>
-      <Link to={props.text_link} className="project-text">
-        <p className="project-description">{props.description}</p>
-      </Link>
+      <div className="project-description">
+        <Link to={props.text_link} className="project-text">
+          {props.description}
+        </Link>
+      </div>
       <p className="project-tech">Development: {props.tech}</p>
     </div>
 
