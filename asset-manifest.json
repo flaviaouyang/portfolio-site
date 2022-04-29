@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.de456552.css",
-    "main.js": "/static/js/main.f7c51910.js",
+    "main.css": "/static/css/main.177cbd43.css",
+    "main.js": "/static/js/main.b7c72126.js",
     "static/media/to-do.jpg": "/static/media/to-do.67ded70eee23a954ceef.jpg",
     "static/media/mcgill.png": "/static/media/mcgill.c49cbd06223c42ba6a5d.png",
     "static/media/sage-femme.png": "/static/media/sage-femme.1741553df3c74ba67e8d.png",
@@ -14,17 +14,17 @@
     "static/media/background.png": "/static/media/background.482fe9e10867a0b228f5.png",
     "static/media/wordle.gif": "/static/media/wordle.74597d3a70df30203b8c.gif",
     "static/media/todo.gif": "/static/media/todo.f0954996871feef08744.gif",
-    "static/media/cube.gif": "/static/media/cube.454fe6c21ba3b3565a20.gif",
+    "static/media/mobile-bg.png": "/static/media/mobile-bg.9dd05fdf7d2896c7d10f.png",
     "static/media/wordle.png": "/static/media/wordle.6e9f37753c2d633e414c.png",
     "static/media/MonumentExtended-Regular.woff2": "/static/media/MonumentExtended-Regular.bb4d7a40d67c9f44e693.woff2",
     "static/media/Swiss-721-BT-Regular.woff2": "/static/media/Swiss-721-BT-Regular.4112b9b5035a23390c1c.woff2",
     "static/media/MonumentExtended-UltraBold.woff2": "/static/media/MonumentExtended-UltraBold.3619fb45af037f580703.woff2",
     "index.html": "/index.html",
-    "main.de456552.css.map": "/static/css/main.de456552.css.map",
-    "main.f7c51910.js.map": "/static/js/main.f7c51910.js.map"
+    "main.177cbd43.css.map": "/static/css/main.177cbd43.css.map",
+    "main.b7c72126.js.map": "/static/js/main.b7c72126.js.map"
   },
   "entrypoints": [
-    "static/css/main.de456552.css",
-    "static/js/main.f7c51910.js"
+    "static/css/main.177cbd43.css",
+    "static/js/main.b7c72126.js"
   ]
 }
