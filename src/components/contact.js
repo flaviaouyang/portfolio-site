@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <div>
+    <div className="contact-container">
       <a href="mailto:flavia.ouyang@mail.mcgill.ca" className="link">
         Hello@FlaviaO.com
       </a>

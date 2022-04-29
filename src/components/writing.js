@@ -16,7 +16,7 @@ const Writing = () => {
   };
 
   return (
-    <div className="accordion">
+    <div className="accordion writings">
       <Accordion
         expanded={expanded === "panel1"}
         onChange={handleChange("panel1")}

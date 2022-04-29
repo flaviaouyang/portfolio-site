@@ -9,7 +9,7 @@ const CaseStudy = (props) => {
           <p>YEAR: {props.year}</p>
         </div>
       </div>
-      <img src={props.src} alt={props.alt} className="case-img" />
+      <img src={props.src} alt={props.alt} className="case-img disappear" />
     </div>
   );
 };
