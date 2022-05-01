@@ -63,4 +63,4 @@ The repository is the source code of my personal portfolio website.<br>
 - [ ] add transition animations
 - [ ] change hover animation
 - [ ] add contact to end of projects
-- [ ] mobile responsive design
+- [x] mobile responsive design
