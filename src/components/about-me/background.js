@@ -3,7 +3,7 @@ const Background = () => {
     <div className="about-text">
       &emsp;I graduated with a Bachelor of Science in computer science from{" "}
       <a href="https://www.mcgill.ca/">McGill University</a> in 2022. I also
-      pursued a double minor of Philosophy and Entrepreneurship.
+      pursued a double minor in Philosophy and Entrepreneurship.
       <br />
       &emsp; When it comes to coding, I{" "}
       <span className="red-text">
@@ -14,7 +14,7 @@ const Background = () => {
       GSAP.
       <br />
       &emsp;Currently, I'm residing in Montreal. But I'm{" "}
-      <span className="red-text">open for relocation</span>.
+      <span className="red-text">open to relocation</span>.
       <br />
       &emsp;Beyond academics, I was VP Marketing at Trek for Teens, a Tutor for CSUS
       helpdesk, and a dedicated Mentor under Youth Outreach Program.
