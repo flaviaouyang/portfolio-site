@@ -8,12 +8,21 @@ const LogoText = (props) => {
   );
 };
 
-const LogoLinks = () => {
+const AboutLinks = () => {
   return (
     <div className="logo-links">
       <Link to=".">I. My background and experience</Link>
       <Link to="technology">II. WHAT TECHNOLOGY DO I KNOW?</Link>
       <Link to="hobby">III. Some other things that i enjoy</Link>
+    </div>
+  );
+};
+
+const WritingLinks = () => {
+  return (
+    <div className="logo-links">
+      <Link to=".">I. NOTES</Link>
+      <Link to="blog">II. BLOG</Link>
     </div>
   );
 };
@@ -63,14 +72,11 @@ const Header = () => {
     <div className="nav-container">
       <Routes>
         <Route index element={<LogoText text="FLAVIA Y. OUYANG" />} />
-        <Route path="about/*" element={<LogoLinks />} />
+        <Route path="about/*" element={<AboutLinks />} />
+        <Route path="writing/*" element={<WritingLinks />} />
         <Route path="project" element={<LogoText text="SELECTED WORKS" />} />
         {/* case studies */}
         <Route path="project/*" element={<LogoText text="Case Study" />} />
-        <Route
-          path="writing"
-          element={<LogoText text="SOME OF MY WRITINGS" />}
-        />
         <Route path="contact" element={<LogoText text="SAY HI! WHY NOT?" />} />
       </Routes>
       <Routes>
@@ -81,15 +87,44 @@ const Header = () => {
         />
         <Route
           path="project"
-          element={<Back first={false} last={false} backLink="/about" nextLink="/writing" />}
+          element={
+            <Back
+              first={false}
+              last={false}
+              backLink="/about"
+              nextLink="/writing"
+            />
+          }
         />
         <Route
           path="project/*"
-          element={<Back first={false} last={true} backLink="/project" nextLink="/writing" />}
+          element={<Back first={false} last={true} backLink="/project" />}
         />
         <Route
-          path="writing"
-          element={<Back first={false} last={false} backLink="/project" nextLink="/contact" />}
+          path="writing/*"
+          element={
+            <Back
+              first={false}
+              last={false}
+              backLink="/project"
+              nextLink="/contact"
+            />
+          }
+        />
+        <Route
+          path="writing/blog"
+          element={
+            <Back
+              first={false}
+              last={false}
+              backLink="/project"
+              nextLink="/contact"
+            />
+          }
+        />
+        <Route
+          path="writing/blog/*"
+          element={<Back first={false} last={true} backLink="/writing/blog" />}
         />
         <Route
           path="contact"
