@@ -10,9 +10,16 @@ import Background from "./components/about-me/background";
 import Hobby from "./components/about-me/hobby";
 import Project from "./components/project/project";
 import CaseStudy from "./components/project/caseStudy";
-import Writing from "./components/writing";
+import Writings from "./components/writings/writings";
+import Notes from "./components/writings/notes";
+import Blog from "./components/writings/blog";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
+
+// blog articles
+import SCSS from "./components/writings/articles/scss";
+import VC from "./components/writings/articles/vc";
+import Router from "./components/writings/articles/tutRouter";
 
 // images
 import Login from "./asset/mcgill.gif";
@@ -114,7 +121,13 @@ function App() {
             />
           }
         />
-        <Route path="/writing" element={<Writing />} />
+        <Route path="/writing" element={<Writings />}>
+          <Route index element={<Notes />} />
+          <Route path="blog" element={<Blog />} />
+        </Route>
+        <Route path="/writing/blog/scss" element={<SCSS />} />
+        <Route path="/writing/blog/vc" element={<VC />} />
+        <Route path="/writing/blog/router" element={<Router />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
