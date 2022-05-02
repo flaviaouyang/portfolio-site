@@ -8,7 +8,6 @@ import BlackJack from "../../asset/blackjack.png";
 import Etch from "../../asset/etch-a-sketch.png";
 import ToDo from "../../asset/to-do.jpg";
 
-
 const Project = () => {
   return (
     <div className="project-container">
