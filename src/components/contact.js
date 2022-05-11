@@ -1,12 +1,12 @@
 const Contact = () => {
   return (
     <div className="contact-container">
-      <a href="mailto:flavia.ouyang@mail.mcgill.ca" className="link">
-        Hello@FlaviaO.com
+      <a href="mailto:hello@flaviaouyang.com" className="link">
+        Hello@emailme.com
       </a>
       <div className="link-container">
         <a
-          href="https://twitter.com/FlaviaOuyang"
+          href="https://twitter.com/flaviaouyang"
           target="_blank"
           rel="noreferrer"
         >
