@@ -1,3 +1,5 @@
+import CV from "../../asset/Flavia_Ouyang_CV.pdf";
+
 const Background = () => {
   return (
     <div className="about-text">
@@ -16,8 +18,13 @@ const Background = () => {
       &emsp;Currently, I'm residing in Montreal. But I'm{" "}
       <span className="red-text">open to relocation</span>.
       <br />
-      &emsp;Beyond academics, I was VP Marketing at Trek for Teens, a Tutor for CSUS
-      helpdesk, and a dedicated Mentor under Youth Outreach Program.
+      &emsp;Beyond academics, I was VP Marketing at Trek for Teens, a Tutor for
+      CSUS helpdesk, and a dedicated Mentor under Youth Outreach Program.
+      <br />
+      &emsp;Looking for my resume?{" "}
+      <a href={CV} target="__blank" rel="noreferrer">
+        Here you go.
+      </a>
     </div>
   );
 };
