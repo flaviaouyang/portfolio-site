@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1cbf03d9.css",
-    "main.js": "/static/js/main.ff8bf2bf.js",
+    "main.js": "/static/js/main.75078edf.js",
     "static/media/to-do.jpg": "/static/media/to-do.67ded70eee23a954ceef.jpg",
     "static/media/mcgill.png": "/static/media/mcgill.c49cbd06223c42ba6a5d.png",
     "static/media/sage-femme.png": "/static/media/sage-femme.1741553df3c74ba67e8d.png",
@@ -11,9 +11,11 @@
     "static/media/blackjack.gif": "/static/media/blackjack.177ab8701ec35e9f4750.gif",
     "static/media/blackjack.png": "/static/media/blackjack.5608be59804d2fa4d378.png",
     "static/media/etch-a-sketch.png": "/static/media/etch-a-sketch.69762efac879615175c7.png",
+    "static/media/three-js-notes.pdf": "/static/media/three-js-notes.bf23cbd41a9f07f6bf4e.pdf",
     "static/media/background.png": "/static/media/background.482fe9e10867a0b228f5.png",
     "static/media/wordle.gif": "/static/media/wordle.74597d3a70df30203b8c.gif",
     "static/media/todo.gif": "/static/media/todo.f0954996871feef08744.gif",
+    "static/media/Flavia_Ouyang_CV.pdf": "/static/media/Flavia_Ouyang_CV.a6818f0ef4bbaaec6d6d.pdf",
     "static/media/mobile-bg.png": "/static/media/mobile-bg.9dd05fdf7d2896c7d10f.png",
     "static/media/wordle.png": "/static/media/wordle.6e9f37753c2d633e414c.png",
     "static/media/MonumentExtended-Regular.woff2": "/static/media/MonumentExtended-Regular.bb4d7a40d67c9f44e693.woff2",
@@ -21,10 +23,10 @@
     "static/media/MonumentExtended-UltraBold.woff2": "/static/media/MonumentExtended-UltraBold.3619fb45af037f580703.woff2",
     "index.html": "/index.html",
     "main.1cbf03d9.css.map": "/static/css/main.1cbf03d9.css.map",
-    "main.ff8bf2bf.js.map": "/static/js/main.ff8bf2bf.js.map"
+    "main.75078edf.js.map": "/static/js/main.75078edf.js.map"
   },
   "entrypoints": [
     "static/css/main.1cbf03d9.css",
-    "static/js/main.ff8bf2bf.js"
+    "static/js/main.75078edf.js"
   ]
 }
