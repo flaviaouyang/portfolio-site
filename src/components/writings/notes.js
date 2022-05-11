@@ -4,6 +4,8 @@ import AccordionDetails from "@mui/material/AccordionDetails";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import Typography from "@mui/material/Typography";
 
+import three from "../../asset/three-js-notes.pdf";
+
 const ExpandedIcon = (props) => {
   return <div className="expanded-icon">{props.icon}</div>;
 };
@@ -39,7 +41,7 @@ const Notes = () => {
             001
           </Typography>
           <Typography className="accordion-title">
-            <a href="https://flaviaouyang.github.io/three.js-journey/">
+            <a href={three} target="_blank" rel="noreferrer">
               A three.js journey: an orange cube&#8599;
             </a>
           </Typography>
@@ -74,7 +76,11 @@ const Notes = () => {
             002
           </Typography>
           <Typography className="accordion-title">
-            <a href="https://flaviaouyang.github.io/web-development-foundation/">
+            <a
+              href="https://flaviaouyang.github.io/web-development-foundation/"
+              target="_blank"
+              rel="noreferrer"
+            >
               Web Development Foundation&#8599;
             </a>
           </Typography>
@@ -110,7 +116,11 @@ const Notes = () => {
             003
           </Typography>
           <Typography className="accordion-title">
-            <a href="https://flaviaouyang.github.io/data-structure-and-algorithms/">
+            <a
+              href="https://flaviaouyang.github.io/data-structure-and-algorithms/"
+              target="_blank"
+              rel="noreferrer"
+            >
               Data Structure and Algorithms&#8599;
             </a>
           </Typography>
@@ -145,7 +155,11 @@ const Notes = () => {
             004
           </Typography>
           <Typography className="accordion-title">
-            <a href="https://flaviaouyang.github.io/harvard-cs-50/">
+            <a
+              href="https://flaviaouyang.github.io/harvard-cs-50/"
+              target="_blank"
+              rel="noreferrer"
+            >
               Harvard Introduction to Computer Science&#8599;
             </a>
           </Typography>
