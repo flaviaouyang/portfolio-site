@@ -12,8 +12,8 @@ const Project = () => {
   return (
     <div className="project-container">
       <ProjectItem
-        link="https://front-end-28x.pages.dev/"
-        img_class="demo"
+        link="https://github.com/COMP307-final-project-W2022"
+        img_class="github"
         img_src={McGill}
         alt="McGill TA Management System"
         tech="React, Node, Express, SQL"
