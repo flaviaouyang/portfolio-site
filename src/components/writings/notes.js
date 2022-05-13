@@ -77,11 +77,11 @@ const Notes = () => {
           </Typography>
           <Typography className="accordion-title">
             <a
-              href="https://flaviaouyang.github.io/web-development-foundation/"
+              href="https://github.com/flaviaouyang/web-development"
               target="_blank"
               rel="noreferrer"
             >
-              Web Development Foundation&#8599;
+              Web Development&#8599;
             </a>
           </Typography>
         </AccordionSummary>
