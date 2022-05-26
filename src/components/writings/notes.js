@@ -81,7 +81,7 @@ const Notes = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Web Development&#8599;
+              Full Stack Web Development&#8599;
             </a>
           </Typography>
         </AccordionSummary>
