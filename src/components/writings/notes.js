@@ -117,7 +117,7 @@ const Notes = () => {
           </Typography>
           <Typography className="accordion-title">
             <a
-              href="https://flaviaouyang.github.io/data-structure-and-algorithms/"
+              href="https://flaviaouyang.github.io/competitive-programming/"
               target="_blank"
               rel="noreferrer"
             >
@@ -156,20 +156,19 @@ const Notes = () => {
           </Typography>
           <Typography className="accordion-title">
             <a
-              href="https://flaviaouyang.github.io/harvard-cs-50/"
+              href="https://flaviaouyang.github.io/python/"
               target="_blank"
               rel="noreferrer"
             >
-              Harvard Introduction to Computer Science&#8599;
+              Python Complete&#8599;
             </a>
           </Typography>
         </AccordionSummary>
         <AccordionDetails className="accordion-item-description">
           <Typography className="accordion-item-text">
-            Everything related to the popular introduction to cs course taught
-            by David J. Martin. I took this course during sophomore year summer
-            and thoroughly enjoyed it. I'm sharing my notes and source code in
-            hopes of helping someone who's on the same path.
+            My personal collection of notes and code examples related to Python.
+            Covers Python basics, Object-oriented programming in Python,
+            anaconda, regex, and more.
           </Typography>
         </AccordionDetails>
       </Accordion>
