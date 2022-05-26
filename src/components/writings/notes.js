@@ -77,7 +77,7 @@ const Notes = () => {
           </Typography>
           <Typography className="accordion-title">
             <a
-              href="https://github.com/flaviaouyang/web-development"
+              href="https://flaviaouyang.github.io/web-development/"
               target="_blank"
               rel="noreferrer"
             >
